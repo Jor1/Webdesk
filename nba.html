@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WebDesk,网页上的桌面！nba</title>
+    <meta content="text/html;charset=UTF-8"
+          http-equiv="content-type">
+    <script type="text/javascript" src="jquery/jquery-2.1.3.js"></script>
+    <script>
+        $(function(){
+            $("#send").click(function(){
+                var msg=document.getElementById("massage").value;
+//                alert(m);
+
+                $('<span></span>').text(msg).prependTo(".video").css({"position":"absolute","right":0,top:"300px",zIndex:99999}).animate({right:"2000px"},12000)
+            })
+        })
+    </script>
+    <style>
+        *{margin: 0;padding: 0}
+        embed{
+            width: 960px;height: 740px;
+        }
+        object{
+            margin: 0 auto;
+        }
+        .video{
+            width: 960px;height: 740px;
+            margin: 0 auto;
+
+        }
+        .talk-window-foot{
+            width: 960px;
+            height: 50px;
+            background-image: url("img/qqfootno.png");
+            border-radius: 5px 5px 5px 5px;
+            margin-top: -107px;
+            position: absolute;
+            z-index: 555;
+
+
+        }
+        #massage{
+            width: 564px;
+            height: 32px;
+            background-color: #ffffff;
+            border-radius: 5px;
+            margin-left: 100px;
+            margin-top: 8px;
+            color:#000000;
+            font-size: 20px;
+            text-indent: 10px;
+            font-family:"黑体",helvetica, arial, verdana ;
+        }
+        #send{
+            width: 100px;
+            height: 40px;
+            background-color: #528BB8;
+            border: 1px solid #044062;
+            border-radius: 5px;
+            margin-left: 50px;
+            font-size: 14px;
+            color: #ffffff;
+
+        }
+
+
+        span{
+            font-size: 30px;
+            color: #ffffff;
+            font-weight: lighter;
+
+            text-indent: 0px;
+            white-space: nowrap;
+            text-shadow: 5px 5px 5px #000;
+            font-family: "黑体";
+             z-index: 9        }
+    </style>
+</head>
+<body>
+<div class="video">
+    
+    <embed id="player" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="960" height="740" src="http://tv.sohu.com/upload/swf/20151218/Main.swf" quality="high" bgcolor="#000000" allowscriptaccess="always" allowfullscreen="true" wmode="Opaque" flashvars="&amp;skin=0&amp;domain=inner&amp;cover=http://222.img.pp.sohu.com.cn/p222/2015/11/28/17/25/6_1522872dfc3g104SysCutcloud_82290283_7_0b.jpg&amp;pageurl=http://my.tv.sohu.com/us/244776342/82290283.shtml&amp;id=82290283&amp;sid=1511241758039005&amp;jump=0&amp;shareBtn=1&amp;cinemaBtn=1&amp;playListId=1&amp;miniWinBtn=1&amp;lightBtn=0&amp;imgCutBtn=0&amp;onPlayed=sohuHD.onVideoPlayed&amp;onPlay=sohuHD.onVideoPlay&amp;onPlayerReady=sohuHD.onPlayerReady&amp;onPause=sohuHD.onVideoPause&amp;onMAdShown=sohuHD.onMAdShown&amp;onMAdFinish=sohuHD.onMAdFinish&amp;onStartAdShown=sohuHD.onStartAdShown&amp;onStartAdFinish=sohuHD.onStartAdFinish&amp;downloadBtn=1&amp;autoplay=true&amp;api_key=&amp;uuid=ae2b07c2-2790-30de-689d-c39fa9b05760&amp;topBarFull=1" style="height: 740px; width: 960px;">
+    
+    <div class="talk-window-foot">
+        <input type="text"id="massage"><input type="submit"id="send"value="发送弹幕">
+    </div>
+    <!--<span style="color:black">2222222222</span>-->
+</div>
+
+</body>
+</html>

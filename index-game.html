@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>卸怒游戏：压扁小鸟</title>
+    <meta content="text/html;charset=UTF-8" http-equiv="content-type">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="jquery/jquery-2.1.3.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <link rel="stylesheet" href="css/index.css" type="text/css">
+    <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1257010133'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/stat.php%3Fid%3D1257010133%26online%3D1%26show%3Dline' type='text/javascript'%3E%3C/script%3E"));</script>
+</head>
+<body
+        onload="startTime()"
+      ondragstart="window.event.returnValue=false"
+      oncontextmenu="window.event.returnValue=false"
+      onselectstart="event.returnValue=false">
+      <div class="my-music" style="display: none;">
+      	<a class="close-music">关闭</a>
+      	<iframe  frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="http://music.163.com/outchain/player?type=0&id=51113762&auto=0&height=430"></iframe>
+      </div>
+      
+    <div class="bottom">
+        <ul class="bottom-ul">
+            <li>
+                <img  style="float: left" src="img/baidui.jpg"width="30px"height="30px"><h2 class="bottom-item"></h2>
+            </li>
+        </ul>
+        <div id="dayTime"></div>
+         
+    </div>
+     
+    <div id="desk">
+        <ul>
+            <li title="听音乐"  shortcut="0" style="left:20px;top:20px" class="window-type">
+                <img src="img/qqmusic.png">
+                <span>听音乐</span>
+                <em></em>
+            </li>
+            <div style="height: 100%;display: none" class="window"title="网页版QQ">
+                <div style="opacity: 0.9" class="title-frame">
+                    <h3>听音乐</h3>
+                    <a class="close-window">关闭</a>
+                    <a class="max-big">最大化</a>
+                    <a class="max-small">还原</a>
+                    <a class="reload"name="sxMusic"onclick="window.open(document.all.music.src,'music','')">刷新</a>
+                </div>
+                <div class="window-frame">
+                    <iframe name="music" id="frameMusic" frameborder="0" src="music.html">
+
+                    </iframe></div></div>
+            <li class="qq" title="聊天" shortcut="1" style="left: 110px; top: 20px;"class="window-type">
+                <img src="img/QQtalk.jpg">
+                <span>聊天</span>
+                <em></em>
+            </li>
+            <div style="height: 100%;display: none" class="window"title="网页版QQ">
+                <div class="title-frame">
+                    <h3>网页版QQ</h3>
+                    <a class="close-window">关闭</a>
+                    <a class="max-big">最大化</a>
+                    <a class="max-small">还原</a>
+                    <a class="reload"name="sxqq"onclick="window.open(document.all.aqq.src,'aqq','')">刷新</a>
+                </div>
+                <div class="window-frame">
+                    <iframe name="aqq" id="frameqq" frameborder="0" src="qq.html">
+
+                    </iframe></div></div>
+            <li title="我的相册" shortcut="2" style="left: 200px; top: 20px;"class="window-type">
+                <img src="img/photo.png">
+                <span>我的相册</span>
+                <em></em>
+            </li>
+            <div class="window">
+            <div class="title-frame">
+                <h3>我的相册</h3>
+                <a class="close-window"id="close-photo">关闭</a>
+                <a class="max-big">最大化</a>
+                <a class="max-small">还原</a>
+                <a class="reload"name="pt"onclick="window.open(document.all.photo.src,'photo','')">刷新</a>
+            </div>
+            <div class="window-frame">
+                <iframe name="photo" id="frame-pt" frameborder="0" src="photograph.html">
+
+                </iframe></div></div>
+            <li title="百度一下，你就知道" shortcut="3" style="left: 290px; top: 20px;"class="window-type">
+                <img src="img/baidui.jpg">
+                <span>百度</span>
+                <em></em>
+            </li>
+            <div style="height: 100%;display: none" class="window"title="百度一下，你就知道">
+                <div class="title-frame">
+                    <h3>百度一下，你就知道</h3>
+                    <a class="close-window">关闭</a>
+                    <a class="max-big">最大化</a>
+                    <a class="max-small">还原</a>
+                    <a class="reload"name="sxb"onclick="window.open(document.all.ab.src,'ab','')">刷新</a>
+                </div>
+                <div class="window-frame">
+                    <iframe name="ab" id="frameb" frameborder="0" src="http://www.baidu.com">
+
+                    </iframe></div></div>
+            <li title="英雄联盟" shortcut="4" style="left: 380px; top: 20px;"class="window-type">
+                <img src="img/lollogo.jpg">
+                <span>英雄联盟</span>
+                <em></em>
+            </li>
+            <div style="height: 100%;display: none" class="window"title="英雄联盟">
+                <div class="title-frame">
+                    <h3>英雄联盟</h3>
+                    <a class="close-window">关闭</a>
+                    <a class="max-big">最大化</a>
+                    <a class="max-small">还原</a>
+                    <a class="reload"name="sxlol"onclick="window.open(document.all.c.src,'c','')">刷新</a>
+                </div>
+                <div class="window-frame">
+                    <iframe name="c" id="framelol" frameborder="0" src="index2.html">
+
+                    </iframe></div></div>
+            <li title="nba" shortcut="5" style="left: 470px; top: 20px;"class="window-type">
+                <img src="img/nba.png">
+                <span>NBA季后赛</span>
+                <em></em>
+            </li>
+            <div class="window">
+                <div class="title-frame">
+                    <h3>NBA 季后赛</h3>
+                    <a class="close-window"id="close-nba">关闭</a>
+                    <a class="max-big">最大化</a>
+                    <a class="max-small">还原</a>
+                    <a class="reload"name="sx"onclick="window.open(document.all.nba.src,'nba','')">刷新</a>
+                </div>
+                <div class="window-frame">
+                    <iframe name="nba" id="frame-nba" frameborder="0" src="">
+
+                    </iframe></div></div>
+            <li title="看直播" shortcut="6" style="left: 560px; top: 20px;"class="window-type">
+                <img src="img/douyu.jpg">
+                <span>看直播</span>
+                <em></em>
+            </li>
+            <div class="window">
+                <div class="title-frame">
+                    <h3>斗鱼TV直播间</h3>
+                    <a class="close-window"id="close-dy">关闭</a>
+                    <a class="max-big">最大化</a>
+                    <a class="max-small">还原</a>
+                    <a class="reload"name="dy"onclick="window.open(document.all.douyu.src,'douyu','')">刷新</a>
+                </div>
+                <div class="window-frame">
+                    <iframe name="douyu" id="frame-dy" frameborder="0" src="">
+
+                    </iframe></div></div>
+            <li shortcut="7" style="left: 650px; top: 20px;"class="window-type">
+                <img src="champions/Ahri_Square_0.png">
+                <span>lol皮肤</span>
+                <em></em>
+            </li>
+            <div class="window">
+                <div class="title-frame">
+                    <h3>九尾妖狐 阿狸</h3>
+                    <a class="close-window">关闭</a>
+                    <a class="max-big">最大化</a>
+                    <a class="max-small">还原</a>
+                    <a class="reload"name="pf"onclick="window.open(document.all.ah.src,'ah','')">刷新</a>
+                </div>
+                <div class="window-frame">
+                    <iframe name="ah" id="framepf" frameborder="0" src="ahri.html">
+
+                    </iframe></div></div>
+            <li title="常用网站" shortcut="8" style="left: 740px; top: 20px;"class="window-type">
+                <img src="img/fav.png">
+                <span>常用网站</span>
+                <em></em>
+            </li>
+            <div class="window">
+                <div class="title-frame">
+                    <h3>常用网站</h3>
+                    <a class="close-window">关闭</a>
+                    <a class="max-big">最大化</a>
+                    <a class="max-small">还原</a>
+                    <a class="reload"name="wb"onclick="window.open(document.all.wbb.src,'wbb','')">刷新</a>
+                </div>
+                <div class="window-frame">
+                    <iframe name="wbb" id="framewb" frameborder="0" src="favorite-web.html">
+
+                    </iframe></div></div>
+            <li  title="卸怒游戏：压扁小鸟" shortcut="9" style="left: 830px; top: 20px;"class="window-type">
+                <img src="img/bird.jpg">
+                <span>压扁小鸟</span>
+                <em></em>
+            </li>
+            <div class="window" style="display: block; margin-top: -22px;">
+                <div class="title-frame">
+                    <h3>卸怒游戏：压扁小鸟</h3>
+                    <a class="close-window">关闭</a>
+                    <a class="max-big">最大化</a>
+                    <a class="max-small">还原</a>
+                    <a class="reload"name="gm"onclick="window.open(document.all.game.src,'game','')">刷新</a>
+                </div>
+                <div class="window-frame">
+                    <iframe name="game" id="framegm" frameborder="0" src="http://play.h5.gamedog.cn/ybxn/">
+
+                    </iframe>
+                </div>
+            </div>
+            <li title="离开" class="leave" shortcut="10" style="left: 830px; top: 20px;">
+                <img src="img/file.png">
+                <span>离开</span>
+                <em></em>
+            </li>
+            <li title="网易云音乐" class="wy-music" shortcut="11">
+                <img src="img/wyyyy-icon.jpg">
+                <span>我的音乐</span>
+                <em></em>
+            </li>
+        </ul>
+
+
+
+
+    </div>
+    <div id="bottom-set"style="z-index:2000;position:absolute;">
+        <h3>任务栏颜色设置</h3>
+        <ul>
+            <li style="background:none repeat scroll 0 0 rgba(170,170,170, 0.9) "></li>
+            <li style="background:none repeat scroll 0 0 rgba(124,201,252, 0.9) "></li>
+            <li style="background:none repeat scroll 0 0 rgba(244,151,214, 0.9) "></li>
+            <li style="background:none repeat scroll 0 0 rgba(243,209,64, 0.9) "></li>
+
+            <li style="background:none repeat scroll 0 0 rgba(172,215,94, 0.9) "></li>
+            <li style="background:none repeat scroll 0 0 rgba(113,214,216, 0.9) "></li>
+            <li style="background:none repeat scroll 0 0 rgba(254,111,111, 0.9) "></li>
+            <li style="background:none repeat scroll 0 0 rgba(70,206,115, 0.9) "></li>
+            <li style="background:none repeat scroll 0 0 rgba(88,177,251, 0.9) "></li>
+
+        </ul>
+    </div>
+    <div id="bg-set"style="z-index: 2000;position: absolute">
+        <h3>桌面背景设置</h3>
+        <div>
+        <img src="img/gr.jpg"width="97px"height="97px">
+        <img src="img/green.jpg"width="97px"height="97px">
+        <img src="img/yt-p0034392.jpg"width="97px"height="97px">
+            <img src="img/girls.jpg"width="97px"height="97px">
+            <img src="img/star.jpg"width="97px"height="97px">
+
+        <img src="img/nature.jpg"width="97px"height="97px">
+        <img src="img/maitian.jpg"width="97px"height="97px">
+        <img src="img/snow.jpg"width="97px"height="97px">
+        <img src="img/untitled.png"width="97px"height="97px">
+        </div>
+    </div>
+    <div class="window-load" id="window-safe"style="display: none">
+        <h1>WebDesk 2016</h1>
+        <h2>—— Desktop on WEB ——<br>Developed By ZhaoRui E-mail:97646476@qq.com</h2>
+        <h1 class="loading">用户离开中 . . .</h1>
+        <div class="gif"><img src="img/load.gif"></div>
+        <h3>赵瑞制作</h3>
+    </div>
+		<!-- JiaThis Button BEGIN -->
+		<div class="jiathis_style_24x24" style="position: absolute;bottom: 50px;right: 10px;">
+			<a href="tencent://AddContact/?fromId=45&amp;fromSubId=1&amp;subcmd=all&amp;uin=97646476&amp;website=www.oicqzone.com"  style="float: left;color: inherit;text-decoration: none;" target="_blank">点击添加我为QQ好友 </a>
+			<a style="float: left;margin-left: 10px;">分享本网页给朋友：</a>
+			<a class="jiathis_button_qzone"></a>
+			<a class="jiathis_button_tsina"></a>
+			<a class="jiathis_button_tqq"></a>
+			<a class="jiathis_button_weixin"></a>
+			<a class="jiathis_button_renren"></a>
+			<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+			<a class="jiathis_counter_style"></a>
+		</div>
+		<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+		<!-- JiaThis Button END -->
+</body>
+</html>
