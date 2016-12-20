@@ -1,0 +1,185 @@
+.customize-control-title {
+	margin-top: 15px;
+	color: rgb(0, 142, 214);
+}
+
+.llorix_one_lite_repeater_container,
+.llorix_one_lite_general_control_repeater_container {
+	float: left;
+	width: 100%;
+	padding: 5px 0;
+	cursor: move;
+}
+
+.llorix_one_lite_repeater_container .llorix-one-lite-box-content-hidden,
+.llorix_one_lite_general_control_repeater_container .llorix-one-lite-box-content-hidden {
+	padding: 5px;
+	padding-top: 0;
+	border: 1px solid #dfdfdf;
+	border-top: 0;
+}
+
+button.llorix_one_lite_remove_field {
+	display: inline-block;
+	float: right;
+	width: 25% !important;
+	height: 57px !important;
+	line-height: 17px !important;
+	white-space: initial !important;
+}
+
+button.llorix_one_lite_general_control_remove_field {
+	width: 100%;
+	margin-top: 10px!important;
+}
+
+button.llorix_one_lite_general_control_remove_field:hover {
+	border: 0;
+	color: #fff!important;
+	background-color: #00a0d2!important;
+}
+
+.llorix_one_lite_repeater_container .llorix_one_lite_icon_link,
+.llorix_one_lite_general_control_repeater_container .llorix_one_lite_text_control,
+.llorix_one_lite_general_control_repeater_container .llorix_one_lite_link_control {
+	width: 100% !important;
+	margin: 3px 0 0 !important;
+}
+
+.llorix_one_lite_repeater_container .llorix_one_lite_icons,
+.llorix_one_lite_general_control_repeater_container .llorix_one_lite_icon_control {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#llorix_one_lite_new_field,
+#llorix_one_lite_general_control_new_field {
+	width: 100%;
+}
+
+.customize-control-widget_form .widget-control-save {
+	display: block !important;
+}
+
+.llorix_one_lite_general_control_repeater_container .llorix-one-lite-box-content-hidden {
+	display: none;
+}
+
+.llorix-one-lite-box-content-hidden {
+	background-color: #fff;
+}
+
+.llorix-one-lite-customize-control-title {
+	overflow: hidden;
+	height: 40px;
+	padding: 0 10px !important;
+	border: 1px solid #dfdfdf;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	color: #00a0d2;
+	background: #f9f9f9;
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, #f9f9f9), color-stop(100%, #ececec));
+	background: -webkit-linear-gradient(top, #f9f9f9 0%, #ececec 100%);
+	background: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to(#ececec));
+	background: linear-gradient(to bottom, #f9f9f9 0%, #ececec 100%);
+	-webkit-box-shadow: inset 0 1px 0 #fff;
+	box-shadow: inset 0 1px 0 #fff;
+	font-weight: bold;
+	line-height: 40px !important;
+	text-align: center;
+	cursor: move !important;
+
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#ececec', GradientType=0 );
+}
+
+.llorix_one_lite_image_control .custom_media_button_llorix_one_lite {
+	margin-top: 5px;
+}
+
+#customize-control-llorix_one_lite_contact_form_shortcode {
+	display: none;
+}
+
+.llorix_one_lite_radio_control {
+	margin-top: 0;
+}
+
+.llorix_one_lite_general_control_repeater_container .llorix-one-lite-box-content-hidden {
+	padding-top: 5px;
+}
+
+.llorix-one-lite-alpha-container .transparency {
+	width: 100%;
+	height: 24px;
+	padding: 0;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	background-color: #fff;
+	background-image: url(../images/transparency-grid.png);
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0,0.4) inset;
+	box-shadow: 0 0 5px rgba(0,0,0,0.4) inset;
+}
+
+.llorix-one-lite-alpha-container .ui-slider-handle {
+	position: absolute;
+	z-index: 2;
+	height: 20px;
+	margin-top: -2px;
+	padding: 3px;
+	border: 1px solid #aaa;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	opacity: 0.9;
+	color: #777;
+	background-color: #fff;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+	text-shadow: 0 1px 0 #fff;
+	font-size: 12px;
+	text-decoration: none;
+	cursor: ew-resize;
+}
+
+.llorix-one-lite-alpha-container .ui-slider {
+	position: relative;
+	width: 88%;
+	text-align: center;
+}
+
+.wp-picker-container a.wp-picker-open ~ div.llorix-one-lite-alpha-container {
+	display: block;
+}
+
+.llorix-one-lite-alpha-container {
+	display: none;
+	-webkit-box-sizing: padding-box;
+	box-sizing: padding-box;
+	padding: 0 11px 6px;
+	border: 1px solid #dfdfdf;
+	border-top: none;
+	background: #fff;
+}
+
+.customize-control-alphacolor .wp-picker-container .iris-picker {
+	border-bottom: none;
+}
+
+#accordion-section-llorix_one_lite_shop_section .accordion-section-title,
+#accordion-section-llorix_one_lite_sections_order .accordion-section-title,
+#accordion-section-llorix_one_lite_features_ribbon_section .accordion-section-title,
+#accordion-section-llorix_one_lite_portfolio_section .accordion-section-title,
+#accordion-section-llorix_one_lite_shortcodes_section .accordion-section-title,
+#accordion-section-llorix_one_lite_new_features .accordion-section-title {
+	background-image: url(../images/gray-lines.png);
+	background-repeat: repeat;
+}
+
+#accordion-section-llorix_one_lite_shop_section .accordion-section-title:after,
+#accordion-section-llorix_one_lite_sections_order .accordion-section-title:after,
+#accordion-section-llorix_one_lite_features_ribbon_section .accordion-section-title:after,
+#accordion-section-llorix_one_lite_portfolio_section .accordion-section-title:after,
+#accordion-section-llorix_one_lite_shortcodes_section .accordion-section-title:after,
+#accordion-section-llorix_one_lite_new_features .accordion-section-title:after {
+	content: "\f160";
+}

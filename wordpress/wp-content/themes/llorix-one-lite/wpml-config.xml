@@ -1,0 +1,28 @@
+<wpml-config>
+	<admin-texts>
+		<key name="theme_mods_llorix-one-lite">
+			<key name="llorix_one_lite_header_title" />
+			<key name="llorix_one_lite_header_subtitle" />
+			<key name="llorix_one_lite_header_button_text" />
+			<key name="llorix_one_lite_header_button_link" />
+			<key name="llorix_one_lite_our_story_title" />
+			<key name="llorix_one_lite_our_story_text" />
+			<key name="llorix_one_lite_ribbon_title" />
+			<key name="llorix_one_lite_button_text" />
+			<key name="llorix_one_lite_button_link" />
+			<key name="llorix_one_lite_latest_news_title" />
+			<key name="llorix_one_lite_contact_form_shortcode" />
+			<key name="llorix_one_lite_contact_map_shortcode" />
+			<key name="llorix_one_lite_copyright" />
+			<key name="llorix_one_lite_our_services_title" />
+			<key name="llorix_one_lite_our_services_subtitle" />
+			<key name="llorix_one_lite_services_content" />
+			<key name="llorix_one_lite_our_team_title" />
+			<key name="llorix_one_lite_our_team_subtitle" />
+			<key name="llorix_one_lite_team_content" />
+			<key name="llorix_one_lite_happy_customers_title" />
+			<key name="llorix_one_lite_happy_customers_subtitle" />
+			<key name="llorix_one_lite_testimonials_content" />
+		</key>
+	</admin-texts>
+</wpml-config>

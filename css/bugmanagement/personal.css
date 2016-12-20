@@ -1,0 +1,30 @@
+/**修改密码**/
+.yjtx {border-bottom: 1px solid #EBEBEB;}
+.change-password-box .testin-form-horizontal .control-label {color: #333;}
+.change-password-box .testin-form-horizontal .form-control{border: 1px solid #CCC;border-radius: 2px;}
+.change-password-box .form-group{position: relative;margin-bottom: 30px;}
+.change-password-box .help-block{position: absolute;top: 33px; left: 257px;font-size: 13px;color: #EB5A3C;}
+.save-btn{display: block;background: #1081DE;box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.08);border-radius: 2px;
+    width: 88px; height: 36px;line-height: 36px;text-align: center;font-size: 14px;color: #FFF;margin: 0px 0px 60px 240px;}
+.save-btn:hover{background-color: #3098F2;color: #fff;}
+.change-password-box .testin-form-horizontal{margin-top: 60px;}
+/**个人设置**/
+.add-portrait-title{font-size: 14px;color: #333;font-weight: 400;}
+.add-portrait{margin: 60px 0px 0px 181px;position: relative;}
+.add-portrait1{font-size: 12px;color: #666;}
+.add-portrait1 img{width: 60px;height: 60px;margin: 0px 27px; border-radius: 50%;cursor: pointer;}
+.add-portrait2{position: absolute;top: 70px;width:520px;padding-bottom:20px;left: -50px;background: #fff;z-index: 2;background: #FFFFFF; border: 1px solid #DDDDDD;box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.12);}
+.add-portrait-btn{position: relative;width: 60px;height: 60px;float: left;margin: 20px 0px 0px 20px;}
+.add-portrait-btn input{width: 60px;height: 60px;position: absolute;left: 0px;top: 0px;z-index: 2;opacity: 0;}
+.add-portrait-btn img{width: 60px;height: 60px;position: absolute;left: 0px;top: 0px;z-index: 1;}
+.common-portrait img{width: 60px;height: 60px;margin: 20px 0px 0px 20px;float: left;}
+.testin-select-list{display: none;}
+.testin-select-set{display: block;border-radius: 2px;margin-bottom: 0px;}
+.iconfont2{position: absolute;top: 12px;right: 10px;color: #666;font-size: 13px;}
+.testin-select-list { border: 1px solid #ccc;border-radius: 2px;width: 100%}
+.testin-select-list li:hover{background: #1081DE;}
+/*获取验证码样式*/
+.yzm_r{width: auto;position: absolute;top: 0px;right: 16px;}
+.yzm_r span{ width: auto;display: block; height: 38px;line-height: 27px;border-radius: 0 2px 2px 0;background-color: #1081DE;color: #fff;}
+.yzm_r span:hover{background: #3098f2}
+body{font-family: ""PingFang SC",Proxima Nova","Helvetica Neue","Helvetica","Hiragino Sans GB","STHeitiSC Light","Microsoft YaHei UI Light","Microsoft YaHei","微软雅黑",Arial,sans-serif; -ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;font-weight: 300;}

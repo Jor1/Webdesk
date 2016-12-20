@@ -1,0 +1,212 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>3D Image Transitions</title>
+
+<!--[if lte IE 8]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+<link href='http://fonts.googleapis.com/css?family=Antic+Slab' rel='stylesheet' type='text/css' />
+
+<!--必要样式表-->
+<style type="text/css">
+
+#slider{background:url("css/img/noise.png"), rgba(255, 255, 255, 0.4);padding:30px;}
+ul.transitions{margin:40px -10px;padding:0;overflow:auto;}
+ul.transitions li{list-style:none;width:20%;float:left;padding:0 10px 1em;}
+ul.transitions li button{
+	font-family:'Antic Slab', arial, sans-serif;
+	display:block;
+	width:100%;
+	padding:1em;
+	text-align:center;
+	font-size:1.2em;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-o-border-radius:5px;
+	-ms-border-radius:5px;
+	-khtml-border-radius:5px;
+	border-radius:5px;
+	-moz-box-shadow:0 1px 0 rgba(255, 255, 255, 0.5) inset, 0 3px 4px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow:0 1px 0 rgba(255, 255, 255, 0.5) inset, 0 3px 4px rgba(0, 0, 0, 0.2);
+	-o-box-shadow:0 1px 0 rgba(255, 255, 255, 0.5) inset, 0 3px 4px rgba(0, 0, 0, 0.2);
+	box-shadow:0 1px 0 rgba(255, 255, 255, 0.5) inset, 0 3px 4px rgba(0, 0, 0, 0.2);
+	border:1px solid rgba(0, 0, 0, 0.3);
+	background:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #999999), color-stop(100%, #666666));
+	background:-webkit-linear-gradient(#999999, #666666);
+	background:-moz-linear-gradient(#999999, #666666);
+	background:-o-linear-gradient(#999999, #666666);
+	background:-ms-linear-gradient(#999999, #666666);
+	background:linear-gradient(#999999, #666666);
+	color:#fff;
+	text-shadow:0 -1px 0 rgba(0, 0, 0, 0.8);
+}
+ul.transitions li button[data-transition="explode"]{
+	background:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #793c82), color-stop(100%, #592c5f));
+	background:-webkit-linear-gradient(#793c82, #592c5f);
+	background:-moz-linear-gradient(#793c82, #592c5f);
+	background:-o-linear-gradient(#793c82, #592c5f);
+	background:-ms-linear-gradient(#793c82, #592c5f);
+	background:linear-gradient(#793c82, #592c5f);
+}
+ul.transitions li button[data-transition="explode"]:active{
+	background:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #592c5f), color-stop(100%, #381c3c));
+	background:-webkit-linear-gradient(#592c5f, #381c3c);
+	background:-moz-linear-gradient(#592c5f, #381c3c);
+	background:-o-linear-gradient(#592c5f, #381c3c);
+	background:-ms-linear-gradient(#592c5f, #381c3c);
+	background:linear-gradient(#592c5f, #381c3c);
+}
+ul.transitions li button[data-transition="cube"]{
+	background:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #2ad6dd), color-stop(100%, #1db1b7));
+	background:-webkit-linear-gradient(#2ad6dd, #1db1b7);
+	background:-moz-linear-gradient(#2ad6dd, #1db1b7);
+	background:-o-linear-gradient(#2ad6dd, #1db1b7);
+	background:-ms-linear-gradient(#2ad6dd, #1db1b7);
+	background:linear-gradient(#2ad6dd, #1db1b7);
+}
+ul.transitions li button[data-transition="cube"]:active{
+	background:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #1db1b7), color-stop(100%, #16868b));
+	background:-webkit-linear-gradient(#1db1b7, #16868b);
+	background:-moz-linear-gradient(#1db1b7, #16868b);
+	background:-o-linear-gradient(#1db1b7, #16868b);
+	background:-ms-linear-gradient(#1db1b7, #16868b);
+	background:linear-gradient(#1db1b7, #16868b);
+}
+ul.transitions li button[data-transition="turn"]{
+	background:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fa602a), color-stop(100%, #eb4106));
+	background:-webkit-linear-gradient(#fa602a, #eb4106);
+	background:-moz-linear-gradient(#fa602a, #eb4106);
+	background:-o-linear-gradient(#fa602a, #eb4106);
+	background:-ms-linear-gradient(#fa602a, #eb4106);
+	background:linear-gradient(#fa602a, #eb4106);
+}
+ul.transitions li button[data-transition="turn"]:active{
+	background:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #eb4106), color-stop(100%, #ba3304));
+	background:-webkit-linear-gradient(#eb4106, #ba3304);
+	background:-moz-linear-gradient(#eb4106, #ba3304);
+	background:-o-linear-gradient(#eb4106, #ba3304);
+	background:-ms-linear-gradient(#eb4106, #ba3304);
+	background:linear-gradient(#eb4106, #ba3304);
+}
+ul.transitions li button[data-transition="tiles3d"]{
+	background:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fb1628), color-stop(100%, #da0415));
+	background:-webkit-linear-gradient(#fb1628, #da0415);
+	background:-moz-linear-gradient(#fb1628, #da0415);
+	background:-o-linear-gradient(#fb1628, #da0415);
+	background:-ms-linear-gradient(#fb1628, #da0415);
+	background:linear-gradient(#fb1628, #da0415);
+}
+ul.transitions li button[data-transition="tiles3d"]:active{
+	background:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #da0415), color-stop(100%, #a80310));
+	background:-webkit-linear-gradient(#da0415, #a80310);
+	background:-moz-linear-gradient(#da0415, #a80310);
+	background:-o-linear-gradient(#da0415, #a80310);
+	background:-ms-linear-gradient(#da0415, #a80310);
+	background:linear-gradient(#da0415, #a80310);
+}
+ul.transitions li button[data-transition="bars3d"]{
+	background:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #82d444), color-stop(100%, #69ba2b));
+	background:-webkit-linear-gradient(#82d444, #69ba2b);
+	background:-moz-linear-gradient(#82d444, #69ba2b);
+	background:-o-linear-gradient(#82d444, #69ba2b);
+	background:-ms-linear-gradient(#82d444, #69ba2b);
+	background:linear-gradient(#82d444, #69ba2b);
+}
+ul.transitions li button[data-transition="bars3d"]:active{
+	background:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #69ba2b), color-stop(100%, #519121));
+	background:-webkit-linear-gradient(#69ba2b, #519121);
+	background:-moz-linear-gradient(#69ba2b, #519121);
+	background:-o-linear-gradient(#69ba2b, #519121);
+	background:-ms-linear-gradient(#69ba2b, #519121);
+	background:linear-gradient(#69ba2b, #519121);
+}
+.transition{
+    list-style-type: none;
+    position: absolute;
+    top: 40px;
+    margin-left: -40px;
+
+
+}
+.transition li{
+    float: left;
+
+}
+.transition li button{
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    border-radius: 10px;
+    border: 1px solid royalblue;
+    color: #ffffff;
+    background-color: red;
+}
+</style>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/flux.js"></script>
+<script type="text/javascript">
+$(function(){
+	if(!flux.browser.supportsTransitions)
+		alert("Flux Slider requires a browser that supports CSS3 transitions");
+		
+	window.f = new flux.slider('#slider', {
+		pagination: false,
+		controls: false,
+		transitions: ['explode', 'tiles3d', 'bars3d', 'cube', 'turn'],
+		autoplay: false
+	});
+	
+	$('.transitions').click(function(event){
+		event.preventDefault();
+		window.f.next($(event.target).data('transition'), $(event.target).data('params'));
+	});
+});
+</script>
+
+</head>
+<body>
+
+<section class="container">
+
+	<h1 style="color: #ffffff;font-family:'黑体'
+
+            font-weight: lighter;
+            padding-bottom: 30px;
+            text-indent: 5px;
+            text-shadow: 5px 5px 5px #000; ">景色相片</h1>
+	<!--<h2>Mozilla Dev Derby March 2012</h2>-->
+    <ul class="transition" id="title-menu">
+        <a href="../photograph.html"><li style="opacity: 0.5"><button type="button" >返回</button></li></a>
+
+        <a href="index-people.html"><li style="opacity: 0.5;margin-left: 560px"><button type="button" >下一相册</button></li></a>
+    </ul>
+	
+	<div id="slider">
+
+        <img src="imgs/photograph/2015-04-27_182950.png" alt="" />
+        <img src="imgs/photograph/2015-04-27_183003.png" alt="" />
+        <img src="imgs/photograph/2015-04-27_183017.png" alt="" />
+        <img src="imgs/photograph/2015-04-27_183029.png" alt="" />
+        <img src="imgs/photograph/2015-04-27_183053.png" alt="" />
+        <img src="imgs/photograph/2015-04-27_183103.png" alt="" />
+        <img src="imgs/photograph/2015-04-27_183614.png" alt="" />
+        <img src="imgs/photograph/2015-04-27_183708.png" alt="" />
+        <img src="imgs/photograph/ambackground.jpg" alt="" />
+	</div>
+	
+	<ul class="transitions">
+		<li><button type="button" data-transition="explode" data-params='{"rows": 4}'>发散效果</button></li>
+		<li><button type="button" data-transition="tiles3d" data-params='{"columns": 6}'>百叶窗</button></li>
+		<li><button type="button" data-transition="bars3d">纵向魔方</button></li>
+		<li><button type="button" data-transition="cube">横向魔方</button></li>
+		<li><button type="button" data-transition="turn">翻书效果</button></li>
+	</ul>
+	
+</section>
+
+</body>
+</html>

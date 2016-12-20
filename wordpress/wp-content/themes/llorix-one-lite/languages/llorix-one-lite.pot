@@ -1,0 +1,1626 @@
+# Copyright (C) 2016 ThemeIsle
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Llorix One Lite 0.1.18\n"
+"Report-Msgid-Bugs-To: https://github.com/Codeinwp/llorix-one-lite/issues\n"
+"POT-Creation-Date: 2016-09-19 12:44:54+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Themeisle Translate Team <friends@themeisle.com>\n"
+"Language-Team: Themeisle Translate <friends@themeisle.com>\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+
+#: 404.php:25
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:29
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the "
+"links below or a search?"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:334 functions.php:368
+msgid "Install Required Plugins"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:335 functions.php:369
+msgid "Install Plugins"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:337 functions.php:370
+#. translators: %s: plugin name.
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:339
+#. translators: %s: plugin name.
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:340 functions.php:371
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:377 functions.php:380
+#. translators: 1: plugin name(s).
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:382
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:387 functions.php:381
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:392 functions.php:382
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:393 class-tgm-plugin-activation.php:920
+#: class-tgm-plugin-activation.php:2626 class-tgm-plugin-activation.php:3673
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:394 class-tgm-plugin-activation.php:3252
+#: functions.php:383
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:395 class-tgm-plugin-activation.php:3045
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:397
+#. translators: 1: plugin name.
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:399
+#. translators: 1: plugin name.
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:401
+#. translators: 1: dashboard link.
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1027
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1027 class-tgm-plugin-activation.php:1030
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1030
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2075
+#. translators: %s: version number
+msgid "TGMPA v%s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2366
+msgid "Required"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2369
+msgid "Recommended"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2388
+msgid "External Source"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2408
+msgid "Not Installed"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2414
+msgid "Active"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2423
+msgid "Requires Update"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2426
+msgid "Update recommended"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2485
+#. translators: 1: number of plugins.
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:2489
+#. translators: 1: number of plugins.
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:2493
+#. translators: 1: number of plugins.
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:2583
+msgid "Installed version:"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2603
+msgid "Available version:"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2640
+msgid "Plugin"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2641
+msgid "Source"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2642
+msgid "Type"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2646
+msgid "Version"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2647
+msgid "Status"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2696
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Install %2$s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2701
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Update %2$s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2707
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Activate %2$s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2810
+#: inc/admin/welcome-screen/sections/getting-started.php:217
+#: inc/admin/welcome-screen/sections/getting-started.php:236
+msgid "Install"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2816
+msgid "Update"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2819
+msgid "Activate"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3251
+msgid "Plugin activation failed."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3591
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3594
+#. translators: 1: plugin name, 2: error message.
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3596
+#. translators: 1: plugin name.
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation and activation process is starting. This process may take "
+"a while on some hosts, so please be patient."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3602
+#. translators: 1: plugin name.
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3602 class-tgm-plugin-activation.php:3610
+msgid "Show Details"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3602 class-tgm-plugin-activation.php:3610
+msgid "Hide Details"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3605
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3608
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3610
+#. translators: 1: plugin name.
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3611
+msgid "All installations have been completed."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3613
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: comments.php:37 comments.php:60
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:40 comments.php:63
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:41 comments.php:64
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:76
+msgid "Comments are closed."
+msgstr ""
+
+#: content-contact.php:36 content-page.php:32
+#: eventbrite/eventbrite-index.php:55 eventbrite/eventbrite-single.php:46
+#: inc/template-tags.php:98
+msgid "Edit"
+msgstr ""
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: content-page.php:25 content-search.php:90 content-single-download.php:29
+#: content-single.php:37 content.php:83
+msgid "Pages:"
+msgstr ""
+
+#: content-search.php:53 content.php:55 inc/template-tags.php:80
+#: inc/template-tags.php:86
+#. translators: used between list items, there is a space after the comma
+msgid ", "
+msgstr ""
+
+#: content-search.php:59
+msgid "Posted in "
+msgstr ""
+
+#: content-search.php:73 content-single.php:28 content.php:66
+msgid "No comments"
+msgstr ""
+
+#: content-search.php:73 content-single.php:28 content.php:66
+msgid "One comment"
+msgstr ""
+
+#: content-search.php:73 content-single.php:28 content.php:66
+msgid "% comments"
+msgstr ""
+
+#: content-search.php:85 content.php:78
+msgid "Read more %s ..."
+msgstr ""
+
+#: content-search.php:85 content.php:78
+msgid "about "
+msgstr ""
+
+#: content.php:9
+msgid "Blog post: %s"
+msgstr ""
+
+#: content.php:52
+msgid "Posted in"
+msgstr ""
+
+#: footer.php:19
+msgid "Widgets Area 1"
+msgstr ""
+
+#: footer.php:29
+msgid "Widgets Area 2"
+msgstr ""
+
+#: footer.php:38
+msgid "Widgets Area 3"
+msgstr ""
+
+#: footer.php:47
+msgid "Widgets Area 4"
+msgstr ""
+
+#: footer.php:73 footer.php:74
+msgid "Secondary Menu"
+msgstr ""
+
+#: footer.php:124
+msgid "powered by"
+msgstr ""
+
+#: footer.php:124
+msgid "WordPress"
+msgstr ""
+
+#: functions.php:46 header.php:250
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:47
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:138
+msgid "Switch \"Front page displays\" to \"A static page\" "
+msgstr ""
+
+#: functions.php:139
+msgid ""
+"In order to have the one page look for your website, please go to Customize "
+"-> Static Front Page and switch \"Front page displays\" to \"A static "
+"page\". Then select the template \"Frontpage\" for that selected page."
+msgstr ""
+
+#: functions.php:144
+msgid "Install Intergeo Maps - Google Maps Plugin"
+msgstr ""
+
+#: functions.php:145
+msgid ""
+"In order to use map section, you need to install Intergeo Maps plugin then "
+"use it to create a map and paste the generated shortcode in Customize -> "
+"Contact section -> Map shortcode"
+msgstr ""
+
+#: functions.php:187
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:199
+msgid "Footer area %d"
+msgstr ""
+
+#: functions.php:243
+msgid "expand child menu"
+msgstr ""
+
+#: functions.php:244
+msgid "collapse child menu"
+msgstr ""
+
+#: functions.php:372
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:373
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:374
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:375
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:376
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:377
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:378
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:379
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:384
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: functions.php:504
+msgid "Pingback:"
+msgstr ""
+
+#: functions.php:504 functions.php:526
+msgid "(Edit)"
+msgstr ""
+
+#: functions.php:514
+msgid "<span itemprop=\"name\">%s </span><span class=\"says\">says:</span>"
+msgstr ""
+
+#: functions.php:517
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:523
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions.php:717
+msgid "Read more about "
+msgstr ""
+
+#: header.php:20
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:84 inc/customizer.php:202
+msgid "(+9) 0999.500.400"
+msgstr ""
+
+#: header.php:85 inc/customizer.php:191
+msgid "Call us: "
+msgstr ""
+
+#: header.php:142 header.php:146
+msgid "Call us:"
+msgstr ""
+
+#: header.php:195
+msgid "Toggle Menu"
+msgstr ""
+
+#: header.php:196
+msgid "Toggle navigation"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/actions-required.php:9
+msgid "Keep up with Llorix One Lite's recommended actions"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/actions-required.php:58
+msgid "Hooray! There are no recommended actions for you right now."
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:13
+msgid "Welcome to Llorix One Lite!"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:15
+msgid ""
+"Our most elegant and professional one-page theme, which turns your "
+"scrolling into a smooth and pleasant experience."
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:16
+msgid ""
+"We want to make sure you have the best experience using Llorix One Lite and "
+"that is why we gathered here all the necessary informations for you. We "
+"hope you will enjoy using Llorix One Lite, as much as we enjoy creating "
+"great products."
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:24
+#: inc/admin/welcome-screen/welcome-screen.php:163
+msgid "Getting started"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:26
+msgid "Customize everything in a single place."
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:27
+msgid ""
+"Using the WordPress Customizer you can easily customize every aspect of the "
+"theme."
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:28
+msgid "Go to Customizer"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:36
+msgid "FAQ"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:42
+msgid "Create a child theme"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:43
+msgid ""
+"If you want to make changes to the theme's files, those changes are likely "
+"to be overwritten when you next update the theme. In order to prevent that "
+"from happening, you need to create a child theme. For this, please follow "
+"the documentation below."
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:44
+#: inc/admin/welcome-screen/sections/getting-started.php:50
+#: inc/admin/welcome-screen/sections/getting-started.php:56
+#: inc/admin/welcome-screen/sections/getting-started.php:64
+#: inc/admin/welcome-screen/sections/getting-started.php:70
+#: inc/admin/welcome-screen/sections/getting-started.php:76
+msgid "View how to do this"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:48
+msgid "How to Internationalize Your Website"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:49
+msgid ""
+"Although English is the most used language on the internet, you should "
+"consider all your web users as well. Find out what it takes to make your "
+"website ready for foreign markets from this document."
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:54
+msgid "Build a landing page with a drag-and-drop content builder"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:55
+msgid ""
+"In the below documentation you will find an easy way to build a great "
+"looking landing page using a drag-and-drop content builder plugin."
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:62
+msgid "Speed up your site"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:63
+msgid ""
+"If you find yourself in the situation where everything on your site is "
+"running very slow, you might consider having a look at the below "
+"documentation where you will find the most common issues causing this and "
+"possible solutions for each of the issues."
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:68
+msgid "Link Menu to sections"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:69
+msgid ""
+"Linking the frontpage sections with the top menu is very simple, all you "
+"need to do is assign section anchors to the menu. In the below "
+"documentation you will find a nice tutorial about this."
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:74
+msgid "Change anchors"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:75
+msgid ""
+"To better suit your site's needs, you can change each section's anchor to "
+"what you want. The entire process is described below."
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:86
+msgid "View full documentation"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:87
+msgid ""
+"Need more details? Please check our full documentation for detailed "
+"information on how to use Llorix One."
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:88
+msgid "Read full documentation"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:95
+msgid "Recommended plugins"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:101
+msgid "Llorix One Companion"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:102
+msgid ""
+"The Llorix One Companion plugin is a simple, easy and in the same time "
+"quite powerful plugins that adds options for Our Services, Our Team and "
+"Testimonials sections on frontpage."
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:106
+#: inc/admin/welcome-screen/sections/getting-started.php:125
+#: inc/admin/welcome-screen/sections/getting-started.php:144
+#: inc/admin/welcome-screen/sections/getting-started.php:173
+#: inc/admin/welcome-screen/sections/getting-started.php:192
+#: inc/admin/welcome-screen/sections/getting-started.php:211
+#: inc/admin/welcome-screen/sections/getting-started.php:230
+msgid "Already activated"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:112
+msgid "Install Llorix One Companion"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:120
+#: inc/customizer.php:710
+msgid "Pirate Forms"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:121
+msgid ""
+"Makes your contact page more engaging by creating a good-looking contact "
+"form on your website. The interaction with your visitors was never easier."
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:131
+msgid "Install Pirate Forms"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:139
+msgid "Easy Content Types"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:140
+msgid "Custom Post Types, Taxonomies and Metaboxes in Minutes"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:150
+msgid "Download Easy Content Types"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:168
+msgid "Page Builder by SiteOrigin"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:169
+msgid ""
+"Build responsive page layouts using the widgets you know and love using "
+"this simple drag and drop page builder."
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:179
+msgid "Install Page Builder by SiteOrigin"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:187
+msgid "Intergeo Maps - Google Maps Plugin"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:188
+msgid ""
+"The Intergeo Google Maps plugin is a simple, easy and in the same time "
+"quite powerful tool for handling Google Maps in your website. The plugin "
+"allows users to create new maps by using powerful UI builder."
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:198
+msgid "Install Intergeo Maps"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/github.php:9
+msgid "How can I contribute?"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/github.php:15
+msgid "Found a bug? Want to contribute with a fix or create a new feature?"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/github.php:17
+msgid "GitHub is the place to go!"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/github.php:20
+msgid "Llorix One Lite on GitHub"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/github.php:28
+msgid ""
+"Are you a polyglot? Want to translate Llorix One Lite into your own "
+"language?"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/github.php:30
+msgid "Get involved at WordPress.org."
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/github.php:33
+msgid "Translate Llorix One Lite"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/github.php:40
+msgid "Are you enjoying Llorix One Lite?"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/github.php:42
+msgid "Rate our theme on %sWordPress.org%s. We'd really appreciate it!"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/support.php:9
+msgid "Need more details?"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/support.php:11
+msgid ""
+"Please check our full documentation for detailed information on how to use "
+"Llorix One."
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/support.php:14
+msgid "Llorix One Lite documentation"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/support.php:17
+msgid "Or would you like to contact us? Write on our support forum."
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/support.php:20
+msgid "Support forum"
+msgstr ""
+
+#: inc/admin/welcome-screen/welcome-screen.php:52
+msgid ""
+"Welcome! Thank you for choosing Llorix One Lite! To fully take advantage of "
+"the best our theme can offer please make sure you visit our %swelcome "
+"page%s."
+msgstr ""
+
+#: inc/admin/welcome-screen/welcome-screen.php:53
+msgid "Get started with Llorix One Lite"
+msgstr ""
+
+#: inc/admin/welcome-screen/welcome-screen.php:86
+msgid "Hooray! There are no required actions for you right now."
+msgstr ""
+
+#: inc/admin/welcome-screen/welcome-screen.php:164
+msgid "Actions recommended"
+msgstr ""
+
+#: inc/admin/welcome-screen/welcome-screen.php:165
+msgid "Contribute"
+msgstr ""
+
+#: inc/admin/welcome-screen/welcome-screen.php:166
+msgid "Support"
+msgstr ""
+
+#: inc/admin/welcome-screen/welcome-screen.php:167
+msgid "Change log"
+msgstr ""
+
+#: inc/class/llorix-one-lite-general-control.php:157
+msgid "Add new field"
+msgstr ""
+
+#: inc/class/llorix-one-lite-general-control.php:183
+#: inc/class/llorix-one-lite-general-control.php:229
+msgid "Icon"
+msgstr ""
+
+#: inc/class/llorix-one-lite-general-control.php:188
+msgid ""
+"Note: Some icons may not be displayed here. You can see the full list of "
+"icons at %1$s"
+msgstr ""
+
+#: inc/class/llorix-one-lite-general-control.php:189
+msgid "http://fontawesome.io/icons/"
+msgstr ""
+
+#: inc/class/llorix-one-lite-general-control.php:210
+#: inc/class/llorix-one-lite-general-control.php:230 inc/customizer.php:273
+#: inc/customizer.php:536
+msgid "Image"
+msgstr ""
+
+#: inc/class/llorix-one-lite-general-control.php:213
+msgid "Upload Image"
+msgstr ""
+
+#: inc/class/llorix-one-lite-general-control.php:226
+msgid "Image type"
+msgstr ""
+
+#: inc/class/llorix-one-lite-general-control.php:231
+msgid "None"
+msgstr ""
+
+#: inc/class/llorix-one-lite-general-control.php:266
+#: inc/class/llorix-one-lite-general-control.php:357
+msgid "Llorix One"
+msgstr ""
+
+#: inc/class/llorix-one-lite-general-control.php:312
+#: inc/class/llorix-one-lite-general-control.php:374 inc/customizer.php:249
+msgid "Title"
+msgstr ""
+
+#: inc/class/llorix-one-lite-general-control.php:319
+#: inc/class/llorix-one-lite-general-control.php:381 inc/customizer.php:260
+#: inc/customizer.php:355
+msgid "Subtitle"
+msgstr ""
+
+#: inc/class/llorix-one-lite-general-control.php:326
+#: inc/class/llorix-one-lite-general-control.php:388
+msgid "Text"
+msgstr ""
+
+#: inc/class/llorix-one-lite-general-control.php:334
+#: inc/class/llorix-one-lite-general-control.php:396
+msgid "Link"
+msgstr ""
+
+#: inc/class/llorix-one-lite-general-control.php:342
+#: inc/class/llorix-one-lite-general-control.php:403
+msgid "Shortcode"
+msgstr ""
+
+#: inc/class/llorix-one-lite-general-control.php:347
+#: inc/class/llorix-one-lite-general-control.php:410
+msgid "Delete field"
+msgstr ""
+
+#: inc/customizer.php:26
+msgid "Advanced options"
+msgstr ""
+
+#: inc/customizer.php:28
+msgid "Llorix One Lite theme general options"
+msgstr ""
+
+#: inc/customizer.php:61
+msgid "Disable preloader?"
+msgstr ""
+
+#: inc/customizer.php:62
+msgid "If this box is checked, the preloader will be disabled from homepage."
+msgstr ""
+
+#: inc/customizer.php:73
+msgid "Change the template to Full width for all the pages?"
+msgstr ""
+
+#: inc/customizer.php:84
+msgid "Appearance"
+msgstr ""
+
+#: inc/customizer.php:98
+msgid "Text color"
+msgstr ""
+
+#: inc/customizer.php:115
+msgid "Title color"
+msgstr ""
+
+#: inc/customizer.php:124
+msgid "General options"
+msgstr ""
+
+#: inc/customizer.php:126
+msgid "Llorix One Lite theme general appearance options"
+msgstr ""
+
+#: inc/customizer.php:136 sections/llorix_one_lite_logos_section.php:46
+#: sections/llorix_one_lite_logos_section.php:50
+#: sections/llorix_one_lite_logos_section.php:55
+#: sections/llorix_one_lite_logos_section.php:57
+#: sections/llorix_one_lite_logos_section.php:85
+#: sections/llorix_one_lite_logos_section.php:89
+#: sections/llorix_one_lite_logos_section.php:94
+#: sections/llorix_one_lite_logos_section.php:96
+msgid "Logo"
+msgstr ""
+
+#: inc/customizer.php:148
+msgid "Header visibility"
+msgstr ""
+
+#: inc/customizer.php:149
+msgid "If this box is checked, the header will toggle on frontpage."
+msgstr ""
+
+#: inc/customizer.php:166
+msgid "Header"
+msgstr ""
+
+#: inc/customizer.php:171
+msgid "Very top header"
+msgstr ""
+
+#: inc/customizer.php:184
+msgid "Disable the Very top header?"
+msgstr ""
+
+#: inc/customizer.php:195
+msgid "Text before the phone number"
+msgstr ""
+
+#: inc/customizer.php:207
+msgid "Phone number"
+msgstr ""
+
+#: inc/customizer.php:225 inc/customizer.php:473 inc/customizer.php:766
+msgid "Add new social icon"
+msgstr ""
+
+#: inc/customizer.php:237
+msgid "Blog header"
+msgstr ""
+
+#: inc/customizer.php:284 inc/customizer.php:431
+msgid "Overlay color and transparency"
+msgstr ""
+
+#: inc/customizer.php:293
+msgid "Frontpage settings"
+msgstr ""
+
+#: inc/customizer.php:305
+msgid ""
+"To customize the Frontpage sections please create a page and select the "
+"template \"Frontpage\" for that page. After that, go to Appearance -> "
+"Customize -> Static Front Page and under \"Static Front Page\" select \"A "
+"static page\". Finally, for \"Front page\" choose the page you previously "
+"created."
+msgstr ""
+
+#: inc/customizer.php:305
+msgid "Need further informations? Check this"
+msgstr ""
+
+#: inc/customizer.php:305
+msgid "doc"
+msgstr ""
+
+#: inc/customizer.php:312
+msgid "Frontpage sections"
+msgstr ""
+
+#: inc/customizer.php:319
+msgid "Big title section"
+msgstr ""
+
+#: inc/customizer.php:331
+msgid "Header Logo"
+msgstr ""
+
+#: inc/customizer.php:338 sections/llorix_one_lite_header_section.php:15
+msgid "Simple, Reliable and Awesome."
+msgstr ""
+
+#: inc/customizer.php:343 inc/customizer.php:510 inc/customizer.php:581
+#: inc/customizer.php:638
+msgid "Main title"
+msgstr ""
+
+#: inc/customizer.php:350 inc/customizer.php:576
+#: sections/llorix_one_lite_ribbon_section.php:16
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+msgstr ""
+
+#: inc/customizer.php:362 inc/customizer.php:588
+#: sections/llorix_one_lite_header_section.php:17
+#: sections/llorix_one_lite_ribbon_section.php:17
+msgid "GET STARTED"
+msgstr ""
+
+#: inc/customizer.php:367 inc/customizer.php:593
+msgid "Button label"
+msgstr ""
+
+#: inc/customizer.php:373 inc/customizer.php:600
+msgid "#"
+msgstr ""
+
+#: inc/customizer.php:378 inc/customizer.php:605
+msgid "Button link"
+msgstr ""
+
+#: inc/customizer.php:386
+msgid "Big title section background"
+msgstr ""
+
+#: inc/customizer.php:395
+msgid "Parallax effect"
+msgstr ""
+
+#: inc/customizer.php:396
+msgid "If this box is checked, the parallax effect is enabled."
+msgstr ""
+
+#: inc/customizer.php:408
+msgid "First layer"
+msgstr ""
+
+#: inc/customizer.php:420
+msgid "Second layer"
+msgstr ""
+
+#: inc/customizer.php:440
+msgid "Logos Bar section"
+msgstr ""
+
+#: inc/customizer.php:453
+msgid "Disable the Logos bar sections?"
+msgstr ""
+
+#: inc/customizer.php:485
+msgid "About section"
+msgstr ""
+
+#: inc/customizer.php:498
+msgid "Disable the About section?"
+msgstr ""
+
+#: inc/customizer.php:505 sections/llorix_one_lite_our_story_section.php:15
+msgid "Our Story"
+msgstr ""
+
+#: inc/customizer.php:517 sections/llorix_one_lite_our_story_section.php:16
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod "
+"tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim "
+"veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea "
+"commodo consequat."
+msgstr ""
+
+#: inc/customizer.php:524
+msgid "Content"
+msgstr ""
+
+#: inc/customizer.php:544
+msgid "Ribbon section"
+msgstr ""
+
+#: inc/customizer.php:557
+msgid "Disable the Ribbon section?"
+msgstr ""
+
+#: inc/customizer.php:569
+msgid "Ribbon Background"
+msgstr ""
+
+#: inc/customizer.php:613
+msgid "Latest news section"
+msgstr ""
+
+#: inc/customizer.php:626
+msgid "Disable the Latest news section?"
+msgstr ""
+
+#: inc/customizer.php:633 sections/llorix_one_lite_latest_news_section.php:25
+#: sections/llorix_one_lite_latest_news_section.php:138
+msgid "Latest news"
+msgstr ""
+
+#: inc/customizer.php:646
+msgid "Contact info section"
+msgstr ""
+
+#: inc/customizer.php:659
+msgid "Disable the Contact info section?"
+msgstr ""
+
+#: inc/customizer.php:676
+msgid "Add new contact field"
+msgstr ""
+
+#: inc/customizer.php:690 inc/customizer.php:721
+msgid "Map shortcode"
+msgstr ""
+
+#: inc/customizer.php:691 inc/customizer.php:722
+msgid "To use this section please install "
+msgstr ""
+
+#: inc/customizer.php:691 inc/customizer.php:722
+msgid "Intergeo Maps"
+msgstr ""
+
+#: inc/customizer.php:691 inc/customizer.php:722
+msgid " plugin then use it to create a map and paste here the shortcode generated"
+msgstr ""
+
+#: inc/customizer.php:699
+msgid "Contact page"
+msgstr ""
+
+#: inc/customizer.php:701
+msgid ""
+"To customize the Contact Page you need to first select the template "
+"\"Contact page\" for the page you want to use for this purpose. Then open "
+"that page in the browser and press \"Customize\" in the top bar."
+msgstr ""
+
+#: inc/customizer.php:709
+msgid "Contact form shortcode"
+msgstr ""
+
+#: inc/customizer.php:710
+msgid "Create a form, copy the shortcode generated and paste it here. We recommend "
+msgstr ""
+
+#: inc/customizer.php:710
+msgid " but you can use any plugin you like."
+msgstr ""
+
+#: inc/customizer.php:730
+msgid "Footer options"
+msgstr ""
+
+#: inc/customizer.php:732
+msgid ""
+"The main content of this section is customizable in: Customize -> Widgets "
+"-> Footer area. "
+msgstr ""
+
+#: inc/customizer.php:748
+msgid "Copyright"
+msgstr ""
+
+#: inc/customizer.php:778 inc/customizer.php:787
+msgid "Sections management"
+msgstr ""
+
+#: inc/customizer.php:790
+msgid ""
+"Check out the <a href=\"http://themeisle.com/plugins/llorix-one-plus/\">PRO "
+"version</a> for full control over the frontpage SECTIONS ORDER!"
+msgstr ""
+
+#: inc/customizer.php:795
+msgid "Portfolio section"
+msgstr ""
+
+#: inc/customizer.php:803
+msgid "Portfolio"
+msgstr ""
+
+#: inc/customizer.php:806
+msgid ""
+"Check out the <a href=\"http://themeisle.com/plugins/llorix-one-plus/\">PRO "
+"version</a> for full control over the NEW PORTFOLIO SECTION!"
+msgstr ""
+
+#: inc/customizer.php:810
+msgid "New Features"
+msgstr ""
+
+#: inc/customizer.php:818
+msgid "Header Layout"
+msgstr ""
+
+#: inc/customizer.php:821
+msgid ""
+"Check out the <a href=\"http://themeisle.com/plugins/llorix-one-plus/\">PRO "
+"version</a> for full control over the HEADER'S LAYOUT SECTION!"
+msgstr ""
+
+#: inc/customizer.php:829
+msgid "Color scheme"
+msgstr ""
+
+#: inc/customizer.php:832
+msgid ""
+"Check out the <a href=\"http://themeisle.com/plugins/llorix-one-plus/\">PRO "
+"version</a> for full control over the COLOR SCHEME!"
+msgstr ""
+
+#: inc/customizer.php:840
+msgid "Preloader"
+msgstr ""
+
+#: inc/customizer.php:843
+msgid ""
+"Check out the <a href=\"http://themeisle.com/plugins/llorix-one-plus/\">PRO "
+"version</a> for full control over the PRELOADER IMAGE!"
+msgstr ""
+
+#: inc/customizer.php:851
+msgid "Opacity"
+msgstr ""
+
+#: inc/customizer.php:854
+msgid ""
+"Check out the <a href=\"http://themeisle.com/plugins/llorix-one-plus/\">PRO "
+"version</a> for full control over the background opacity and color of each "
+"section!"
+msgstr ""
+
+#: inc/extras.php:52
+msgid "Page %s"
+msgstr ""
+
+#: inc/template-tags.php:26
+msgid "Older posts"
+msgstr ""
+
+#: inc/template-tags.php:30
+msgid "Newer posts"
+msgstr ""
+
+#: inc/template-tags.php:82
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/template-tags.php:88
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/template-tags.php:94
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/template-tags.php:94
+msgid "1 Comment"
+msgstr ""
+
+#: inc/template-tags.php:94
+msgid "% Comments"
+msgstr ""
+
+#: search.php:25
+msgid "Search Results for: %s"
+msgstr ""
+
+#: sections/llorix_one_lite_contact_info_section.php:34
+#: sections/llorix_one_lite_contact_info_section.php:97
+msgid "Contact Info"
+msgstr ""
+
+#: sections/llorix_one_lite_header_section.php:94
+#: sections/llorix_one_lite_header_section.php:97
+#: sections/llorix_one_lite_header_section.php:99
+msgid "Header button label:"
+msgstr ""
+
+#: sections/llorix_one_lite_latest_news_section.php:28
+#: sections/llorix_one_lite_latest_news_section.php:141
+msgid "Latest blog posts"
+msgstr ""
+
+#: sections/llorix_one_lite_latest_news_section.php:44
+#: sections/llorix_one_lite_latest_news_section.php:157
+msgid "Post slider navigation: Down"
+msgstr ""
+
+#: sections/llorix_one_lite_latest_news_section.php:45
+#: sections/llorix_one_lite_latest_news_section.php:158
+msgid "Post slider navigation: Up"
+msgstr ""
+
+#: sections/llorix_one_lite_latest_news_section.php:68
+#: sections/llorix_one_lite_latest_news_section.php:181
+msgid "Latest News: %s"
+msgstr ""
+
+#: sections/llorix_one_lite_latest_news_section.php:96
+#: sections/llorix_one_lite_latest_news_section.php:209
+msgid "by"
+msgstr ""
+
+#: sections/llorix_one_lite_latest_news_section.php:106
+#: sections/llorix_one_lite_latest_news_section.php:219
+msgid "Read more %s"
+msgstr ""
+
+#: sections/llorix_one_lite_logos_section.php:35
+#: sections/llorix_one_lite_logos_section.php:74
+msgid "Affiliates Logos"
+msgstr ""
+
+#: sections/llorix_one_lite_our_story_section.php:21
+#: sections/llorix_one_lite_our_story_section.php:25
+msgid "About"
+msgstr ""
+
+#: sections/llorix_one_lite_ribbon_section.php:28
+#: sections/llorix_one_lite_ribbon_section.php:30
+#: sections/llorix_one_lite_ribbon_section.php:68
+#: sections/llorix_one_lite_ribbon_section.php:70
+msgid "Ribbon"
+msgstr ""
+
+#: sections/llorix_one_lite_ribbon_section.php:48
+#: sections/llorix_one_lite_ribbon_section.php:50
+#: sections/llorix_one_lite_ribbon_section.php:87
+#: sections/llorix_one_lite_ribbon_section.php:89
+msgid "Ribbon button label:"
+msgstr ""
+
+#: sidebar.php:13
+msgid "Main sidebar"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Llorix One Lite"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://themeisle.com/themes/llorix-one/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Llorix One Lite is a free and beautiful one page business WordPress theme, "
+"with a flat and clean bootstrap based design and an elegant parallax "
+"effect. It provides a simple,minimal and modern look that can be used for "
+"any kind of personal businesses or startup mobile app. The landing page has "
+"a fullscreen hero image and blue & orange appearance with buttons and icons "
+"promoting simplicity and elegance at their best. The theme provides a "
+"responsive blog section, is eCommerce ready (WooCommerce store compatible), "
+"WPML, bbPress, Photo Gallery Grid,Contact Form 7,Meta Slider,SiteOrigin "
+"Page Builder, JetPack compatible  and SEO friendly. You can use it for your "
+"business / startup shop, agency, corporate website, or photography "
+"portfolio."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ThemeIsle"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://themeisle.com/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Contact"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Frontpage"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Full Width"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Eventbrite Events"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1214 class-tgm-plugin-activation.php:3041
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2435
+#. translators: 1: install status, 2: update status
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2481
+#. translators: 1: number of plugins.
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:2575
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: comments.php:29
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:522
+msgctxt "comment time format"
+msgid "l, F j, Y, g:i a"
+msgstr ""
+
+#: inc/template-tags.php:58
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: inc/template-tags.php:63
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#: sections/llorix_one_lite_latest_news_section.php:69
+#: sections/llorix_one_lite_latest_news_section.php:93
+#: sections/llorix_one_lite_latest_news_section.php:182
+#: sections/llorix_one_lite_latest_news_section.php:206
+msgctxt "post time format"
+msgid "l, F j, Y, g:i a"
+msgstr ""

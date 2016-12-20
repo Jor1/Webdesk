@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="../../../../css/common/normalize.css"/>
+    <link rel="stylesheet" href="../../../../css/common/iconfont.css"/>
+    <link rel="stylesheet" href="../../../../css/common/style.css"/>
+    <link rel="stylesheet" href="../../../../css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../../../../css/common/moudle.css"/>
+    <link rel="stylesheet" href="../../../../css/bugmanagement/staff.css"/>
+    <link rel="stylesheet" href="../../../../css/bugmanagement/enterprise.css"/>
+    <script src="../../../../js/enterprise/jquery.min.js"></script>
+    <script src="../../../../js/bootstrap.min.js"></script>
+</head>
+<body>
+
+</body>
+<div class="bugmanagement">
+    <div class="bugmanagement-staff">
+        <div class="bugmanagement-right no-left">
+            <h3 class="cygl clearfix b-b-0"><span>管理成员</span><a href="#">创建实验</a><span class="right-span">共计：26个试验</span></h3>
+            <table cellpadding="0" cellspacing="0" width="100%" border="0" class="staff-table enterprise-staff-table">
+                <thead>
+                    <tr>
+                        <td style="width: 535px">试验名称</td>
+                        <td style="width: 215px">状态</td>
+                        <td style="width: 206px">时间</td>
+                        <td>操作</td>
+                    </tr>
+                </thead>
+                <tbody class="high-td">
+                    <tr>
+                        <td>
+                            <span>按钮颜色对比</span>
+                            <p class="first-sub"><span>默认层</span><span>流量0%</span><span>2个试验版本</span><span>1个优化指标</span></p>
+                        </td>
+                        <td>
+                            <span class="operation-status yellow-color">运营中</span><span class="operation-time">已运行26天</span>
+                        </td>
+                        <td>创建于2016-09-23</td>
+                        <td><a href="#">进入</a><a href="#" class="clone">克隆试验</a><a href="#" class="delete" data-toggle="modal" data-target="#myModal">删除</a></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>用户界面数据布局对比</span>
+                            <p class="first-sub"><span>默认层</span><span>流量0%</span><span>2个试验版本</span><span>1个优化指标</span></p>
+                        </td>
+                        <td>
+                            <span class="operation-status yellow-color">运营中</span><span class="operation-time">已运行26天</span>
+                        </td>
+                        <td>创建于2016-09-23</td>
+                        <td><a href="#">进入</a><a href="#" class="clone">克隆试验</a><a href="#" class="delete" data-toggle="modal" data-target="#myModal">删除</a></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>广告界面图形大小对比</span>
+                            <p class="first-sub"><span>默认层</span><span>流量0%</span><span>2个试验版本</span><span>1个优化指标</span></p>
+                        </td>
+                        <td>
+                            <span class="operation-status yellow-color">运营中</span><span class="operation-time">已运行26天</span>
+                        </td>
+                        <td>创建于2016-09-23</td>
+                        <td><a href="#">进入</a><a href="#" class="clone">克隆试验</a><a href="#" class="delete" data-toggle="modal" data-target="#myModal">删除</a></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>按钮大小左右对比123</span>
+                            <p class="first-sub"><span>默认层</span><span>流量0%</span><span>2个试验版本</span><span>1个优化指标</span></p>
+                        </td>
+                        <td>
+                            <span class="operation-status yellow-color">运营中</span><span class="operation-time">已运行26天</span>
+                        </td>
+                        <td>创建于2016-09-23</td>
+                        <td><a href="#">进入</a><a href="#" class="clone">克隆试验</a><a href="#" class="delete" data-toggle="modal" data-target="#myModal">删除</a></td>
+                    </tr>
+                </tbody>
+            </table>
+            <!--翻页-->
+            <div class="page-pagination">
+                <div class="layout-fixed">
+                    <div class="auto-item">
+                        <div class="btn-group dropdown-select">
+                        </div>
+                    </div>
+                    <div class="fixed-item">第 1-20 条，共 798 条<span class="iconfont icon-prev page-btn"></span><span class="iconfont icon-next page-btn"></span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--弹窗-->
+<div class="modal fade testin-modal enterprise-tip" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    ×
+                </button>
+                <h4 class="modal-title" id="myModalLabel">
+                    提示
+                </h4>
+            </div>
+            <div class="modal-body">
+                <p>确定从实验中移除？</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn testin-btn-primary">确认</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+            </div>
+        </div>
+    </div>
+</div>
+</html>

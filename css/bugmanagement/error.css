@@ -1,0 +1,45 @@
+body{
+    background-color: #FFFFFF;
+    font-family: ""PingFang SC",Proxima Nova","Helvetica Neue","Helvetica","Hiragino Sans GB","STHeitiSC Light","Microsoft YaHei UI Light","Microsoft YaHei","微软雅黑",Arial,sans-serif; -ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;font-weight: 300;
+}
+.tac{
+    text-align: center;
+}
+.error-content{
+    display: inline-block;
+    margin: 244px auto 0;
+}
+.error-content .error-left{
+    float: left;
+}
+.error-content .error-right{
+    float: right;
+    padding-left: 45px;
+    padding-top: 55px;
+    text-align: left;
+}
+.error-content .error-right .error-title{
+    font-size: 30px;
+    color: #333333;
+    margin-bottom: 15px;
+}
+.error-content .error-right .error-sub-title a{
+    text-decoration: underline;
+    color: #22a4e5;
+}
+.error-content .error-right .error-sub-title a:hover{
+    color: #25b3fa;
+}
+.error-content .error-right .error-link{
+    margin-top: 30px;
+}
+.error-content .error-right .error-link a{
+    margin-right: 32px;
+    color: #333333;
+}
+.error-content .error-right .error-link a .iconfont{
+    margin-right: 5px;
+}
+.error-content .error-right .error-link a:hover{
+    color: #25b3fa;
+}

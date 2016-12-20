@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="../../../../css/common/normalize.css"/>
+    <link rel="stylesheet" href="../../../../css/common/iconfont.css"/>
+    <link rel="stylesheet" href="../../../../css/common/style.css"/>
+    <link rel="stylesheet" href="../../../../css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../../../../css/common/moudle.css"/>
+    <link rel="stylesheet" href="../../../../css/bugmanagement/staff.css"/>
+    <link rel="stylesheet" href="../../../../css/bugmanagement/enterprise.css"/>
+    <link rel="stylesheet" href="../../../../css/bugmanagement/login.css">
+
+    <script src="../../../../js/jquery-1.11.1.min.js"></script>
+    <script src="../../../../js/testinBS.js"></script>
+    <script src="../../../../js/jquery.nicescroll.js"></script>
+</head>
+<body>
+<div class="bugmanagement">
+    <div class="bugmanagement-staff">
+        <div class="bugmanagement-right no-left">
+            <h3 class="cygl clearfix b-b-1"><span>创建实验</span></h3>
+            <div class="ab-content" style="padding-bottom: 40px">
+                <div class="alert-tip-blue m-t-0">
+                    变量需要在代码中集成，请确保此处变量名称与代码中一致。您可通过导航栏SDK集成管理所有变量。同一应用下的变量可以被所有试验调用，请选择本次试验需要引用的变量。
+                </div>
+                <div class="commit_box_step p-30 tac">
+                    <ul class="di-block o-hidden">
+                        <li class="complete">
+                            <span class="spanc span-name finish-icon"></span>选择类型
+                        </li>
+                        <li class="complete">
+                            <span class="span_line"></span>
+                            <span class="spanc span-name finish-icon"></span>编辑测试
+                        </li>
+                        <li class="complete">
+                            <span class="span_lineccc"></span>
+                            <span class="spanc span-name">3</span>编辑版本
+                        </li>
+                        <li class="not-complete">
+                            <span class="span_lineccc"></span>
+                            <span class="span2 span-name">4</span>优化指标
+                        </li>
+                        <li class="not-complete">
+                            <span class="span_lineccc"></span>
+                            <span class="span2 span-name">5</span>优化指标
+                        </li>
+                    </ul>
+                </div>
+                <div class="ab-tab">
+                    <span>整体数据</span>
+                </div>
+                <div class="ab-panel scroll-content">
+                    <div class="item-type type1">
+                        <div class="panel-head">
+                            <span>变量</span>
+                        </div>
+                        <div class="panel-body">
+                            <div class="panel-item-box">
+                                <span class="span-sm">未添加试验变量</span>
+                            </div>
+                            <div class="panel-item-box for-add">
+                                <span>
+                                    <img class="add-icon" src="../../../../images/ab-add-1.png">添加变量
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-type type2">
+                        <div class="panel-head">
+                            <span>原始版本</span>
+                            <span class="span-sm">对照版本</span>
+                        </div>
+                        <div class="panel-body">
+                            <div class="panel-item-box">
+                                <span class="span-sm">未添加试验变量</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-type type3">
+                        <div class="panel-head">
+                            <span>experiment_1_哈哈</span>
+                            <span class="span-sm">版本1</span>
+                        </div>
+                        <div class="panel-body">
+                            <div class="panel-item-box">
+                                <span class="span-sm">未添加试验变量</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-type type3">
+                        <div class="panel-head">
+                            <span>experiment_1_哈哈</span>
+                            <span class="span-sm">版本1</span>
+                        </div>
+                        <div class="panel-body">
+                            <div class="panel-item-box">
+                                <span class="span-sm">未添加试验变量</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-type type3">
+                        <div class="panel-head">
+                            <span>experiment_1_哈哈</span>
+                            <span class="span-sm">版本1</span>
+                        </div>
+                        <div class="panel-body">
+                            <div class="panel-item-box">
+                                <span class="span-sm">未添加试验变量</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-type type3">
+                        <div class="panel-head for-add">
+                            <img class="add-icon" src="../../../../images/ab-add-2.png">添加版本
+                        </div>
+                        <div class="panel-body">
+                            <div class="panel-item-box add-version">
+                                <input type="text" class="form-control input-sm" placeholder="实验名称">
+                                <input type="text" class="form-control input-sm" placeholder="实验描述">
+                                <p class="control-out">
+                                    <button type="button" class="btn btn-default">取消</button>
+                                    <button type="button" class="btn testin-btn-primary confirm">保存</button>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ab-panel-add">
+                    <div class="tac panel-tab">
+                        <div class="nav-tabs" id="myTab">
+                            <a class="tab-btn active" data-toggle="tab" href="#tab1" aria-expanded="true">新建变量</a>
+                            <a class="tab-btn" data-toggle="tab" href="#tab2" aria-expanded="false">选择已有变量</a>
+                        </div>
+                    </div>
+                    <div class="tab-content" id="myTabContent">
+                        <div id="tab1" class="tab-pane fade active in">
+                            <div class="tab-form">
+                                <div>
+                                    <div class="form-item">
+                                        <span>请填写变量</span>
+                                        <input class="input-sm form-control">
+                                        <div class="select-out">
+                                            <select class="testin-select">
+                                                <option selected="selected">Syring</option>
+                                                <option>Syring</option>
+                                                <option>Syring</option>
+                                                <option>Syring</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-item" style="margin-left: 20px">
+                                        <span>请填写变量</span>
+                                        <input class="input-sm form-control">
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="form-item" style="margin-top: 20px">
+                                        <span>变量说明</span>
+                                        <input class="input-sm form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tar">
+                                <a class="save-btn">保存</a>
+                            </div>
+                        </div>
+                        <div id="tab2" class="tab-pane fade">
+                            <div class="variable-area">
+                                <div class="variable-box">
+                                    <div class="variable-content">
+                                        <div class="pull-left">
+                                            <p class="v-main">btn_xu</p>
+                                            <p class="v-sub">String</p>
+                                        </div>
+                                        <div class="pull-left">
+                                            <img class="add-icon2" src="../../../../images/ab-add-2.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="variable-box">
+                                    <div class="variable-content">
+                                        <div class="pull-left">
+                                            <p class="v-main">btn_xu</p>
+                                            <p class="v-sub">String</p>
+                                        </div>
+                                        <div class="pull-left">
+                                            <img class="add-icon2" src="../../../../images/ab-add-2.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="variable-box">
+                                    <div class="variable-content">
+                                        <div class="pull-left">
+                                            <p class="v-main">btn_xu</p>
+                                            <p class="v-sub">String</p>
+                                        </div>
+                                        <div class="pull-left">
+                                            <img class="add-icon2" src="../../../../images/ab-add-2.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="variable-box">
+                                    <div class="variable-content">
+                                        <div class="pull-left">
+                                            <p class="v-main">btn_xu</p>
+                                            <p class="v-sub">String</p>
+                                        </div>
+                                        <div class="pull-left">
+                                            <img class="add-icon2" src="../../../../images/ab-add-2.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="variable-box">
+                                    <div class="variable-content">
+                                        <div class="pull-left">
+                                            <p class="v-main">btn_xu</p>
+                                            <p class="v-sub">String</p>
+                                        </div>
+                                        <div class="pull-left">
+                                            <img class="add-icon2" src="../../../../images/ab-add-2.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="variable-box">
+                                    <div class="variable-content">
+                                        <div class="pull-left">
+                                            <p class="v-main">btn_xu</p>
+                                            <p class="v-sub">String</p>
+                                        </div>
+                                        <div class="pull-left">
+                                            <img class="add-icon2" src="../../../../images/ab-add-2.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="variable-box">
+                                    <div class="variable-content">
+                                        <div class="pull-left">
+                                            <p class="v-main">btn_xu</p>
+                                            <p class="v-sub">String</p>
+                                        </div>
+                                        <div class="pull-left">
+                                            <img class="add-icon2" src="../../../../images/ab-add-2.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="variable-box">
+                                    <div class="variable-content">
+                                        <div class="pull-left">
+                                            <p class="v-main">btn_xu</p>
+                                            <p class="v-sub">String</p>
+                                        </div>
+                                        <div class="pull-left">
+                                            <img class="add-icon2" src="../../../../images/ab-add-2.png">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tar">
+                                <a class="save-btn">保存</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(function(){
+//        添加变量相关交互
+        $(".ab-panel-add").css({"display":"none"});
+        $(".panel-item-box.for-add").click(function(){
+            $(this).parents("body").addClass("adding");
+        });
+        $(".save-btn").click(function(){
+            $(this).parents("body").removeClass("adding");
+        });
+        $("#myTab .tab-btn").click(function(){
+            $(this).addClass("active").siblings(".tab-btn").removeClass("active");
+        });
+//        添加版本相关交互
+        $(".panel-head.for-add").click(function(){
+            $(this).parents("body").addClass("adding2");
+        });
+        $(".confirm").click(function(){
+            $(this).parents("body").removeClass("adding2");
+        });
+    });
+    $('.scroll-content').niceScroll({
+        cursorcolor: "#999",//#CC0071 光标颜色
+        cursoropacitymax: 1, //改变不透明度非常光标处于活动状态（scrollabar“可见”状态），范围从1到0
+        touchbehavior: false, //使光标拖动滚动像在台式电脑触摸设备
+        cursorwidth: "8px", //像素光标的宽度
+        cursorborder: "0", //     游标边框css定义
+        cursorborderradius: "0px",//以像素为光标边界半径
+        autohidemode: false //是否隐藏滚动条
+    });
+</script>
+</body>
+</html>

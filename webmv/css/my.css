@@ -1,0 +1,55 @@
+			@font-face {
+				font-family:futura;
+				src: url(futuraef-mediumcondobl-webfont.ttf);
+			}
+			@font-face {
+				font-family:futura-ef;
+				src: url(futuraef-mediumcond-webfont.ttf);
+			}
+			body{
+				
+				/*font-style: ;*/
+				margin: 0;
+				padding: 0;
+				text-align: center;
+				/*background-color: black;*/
+				background-image:url('http://ww1.sinaimg.cn/large/bc953552gw1ey5gl8ipnwg205a064dhr.gif') ;
+				
+			}
+			.para{
+				    font-weight: 500;
+				    font-size: 59px;
+    				letter-spacing: 11px;
+				    width: 100%;
+				    text-transform:uppercase ;
+				    position: absolute;
+				    top: 50%;
+				    margin-top: -40px;
+				    display: none;
+				    
+			}
+			@media  (max-width:620px ) {
+				.para{
+				    top: 30%;
+				    margin-top: -100px;
+					}
+			}
+			.new,.para{
+				font-family: futura;
+				color: #FEB2FD;
+				opacity: 0.8;
+				cursor: none;
+			}
+			.normal{
+				font-family: futura-ef;
+			}
+			.pink{
+				color: #FEB2FD;
+			}
+			.play{
+				position: absolute;
+				top: 50%;
+				margin-top: -50px;
+				margin-left: -50px;
+				cursor: pointer;
+			}

@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WebDesk 我的相册</title>
+    <meta content="text/html;charset=UTF-8"
+          http-equiv="content-type">
+    <script type="text/javascript" src="jquery/jquery-2.1.3.js"></script>
+    <script>
+        $(function(){
+            $(".pic").hover(function(){
+                $(this).animate({marginTop:-10},200).css("opacity","0.9");
+//                $(this).parents("a").siblings("a").find(".pic").css("opacity","0.1")
+            },function(){
+                $(this).animate({marginTop:0},200).css("opacity","1")
+            })
+            $(".pic").click(function(){
+                $(this).parent("a").siblings("a").find(".pic").toggle(500);
+                $(".about-song").show();
+
+            })
+            $(".pic").click(function(){
+                var t1=$(this).attr("title");
+                var t2=$(this).find("h2").attr("title")
+//                alert(t1)
+                $(".t1").text(t1)
+                $(".t2").text(t2)
+
+            })
+            $("pre").hover(function(){
+                $(this).css({overflowY:"scroll"})
+            })
+            $(".photo a:eq(1)").click(function(){
+            var emb=$("embed").size()
+//                alert(emb);
+                if(emb==0){
+                    $('body').append('<embed src="http://60.194.100.8/m10.music.126.net/20151221162113/a8f30ae9b02c6e8e26f0a089565194ee/ymusic/42f5/852a/0cfb/6ccb29b90c0b8eb7d4e8e820e0a5a335.mp3?wshc_tag=0&wsts_tag=5677b0a1&wsid_tag=76f4feca&wsiphost=ipdbm" autostart="true" hidden="true" loop="false">');
+                    $("pre").clone().appendTo(".about-song").text("暂无歌词").prev("pre").hide()
+                }
+                else if(emb=1){
+                    $("embed").remove();
+                    $("pre:first").show().siblings("pre").remove()
+                }
+            })
+            $(".photo a:eq(0)").click(function(){
+                var emb=$("embed").size()
+//                alert(emb);
+                if(emb==0){
+                    $('body').append('<embed src="http://60.194.100.8/m10.music.126.net/20151221162113/a8f30ae9b02c6e8e26f0a089565194ee/ymusic/42f5/852a/0cfb/6ccb29b90c0b8eb7d4e8e820e0a5a335.mp3?wshc_tag=0&wsts_tag=5677b0a1&wsid_tag=76f4feca&wsiphost=ipdbm" autostart="true" hidden="true" loop="false">');
+
+                }
+                else if(emb=1){
+                    $("embed").remove()
+                }
+            })
+            $(".photo a:eq(2)").click(function(){
+                var emb=$("embed").size()
+//                alert(emb);
+                if(emb==0){
+                    $('body').append('<embed src="http://124.202.166.48/m10.music.126.net/20151221120158/8355e2cfbbda7644bcbb5fe165f379da/ymusic/2240/f7cc/48c8/21281add6223f75d1370c6bb124c5745.mp3?wshc_tag=1&wsts_tag=567773e3&wsid_tag=7945003a&wsiphost=ipdbm" autostart="true" hidden="true" loop="false">');
+                    $("pre").clone().appendTo(".about-song").text("暂无歌词").prev("pre").hide()
+                }
+
+                else if(emb=1){
+                    $("embed").remove(); $("pre:first").show().siblings("pre").remove()
+                }
+            })
+            $(".photo a:eq(3)").click(function(){
+                var emb=$("embed").size()
+//                alert(emb);
+                if(emb==0){
+                    $('body').append('<embed src="music/Ed%20Sheeran%20-%20Dont.mp3" autostart="true" hidden="true" loop="false">');
+                    $("pre").clone().appendTo(".about-song").text("暂无歌词").prev("pre").hide()
+                }
+                else if(emb=1){
+                    $("embed").remove(); $("pre:first").show().siblings("pre").remove()
+                }
+            })
+            $(".photo a:eq(4)").click(function(){
+                var emb=$("embed").size()
+//                alert(emb);
+                if(emb==0){
+                    $('body').append('<embed src="music/Mark%20Ronson%20-%20Uptown%20Funk.mp3" autostart="true" hidden="true" loop="false">');
+                    $("pre").clone().appendTo(".about-song").text("暂无歌词").prev("pre").hide()
+                }
+                else if(emb=1){
+                    $("embed").remove(); $("pre:first").show().siblings("pre").remove()
+                }
+            })
+            $(".photo a:eq(5)").click(function(){
+                var emb=$("embed").size()
+//                alert(emb);
+                if(emb==0){
+                    $('body').append('<embed src="music/Selena%20Gomez%20-%20The%20Heart%20Wants%20What%20It%20Wants.mp3" autostart="true" hidden="true" loop="false">');
+                    $("pre").clone().appendTo(".about-song").text("暂无歌词").prev("pre").hide()
+                }
+                else if(emb=1){
+                    $("embed").remove(); $("pre:first").show().siblings("pre").remove()
+                }
+            })
+            $(".photo a:eq(6)").click(function(){
+                var emb=$("embed").size()
+//                alert(emb);
+                if(emb==0){
+                    $('body').append('<embed src="music/Nick%20Jonas%20-%20Chains.mp3" autostart="true" hidden="true" loop="false">');
+                    $("pre").clone().appendTo(".about-song").text("暂无歌词").prev("pre").hide()
+                }
+                else if(emb=1){
+                    $("embed").remove(); $("pre:first").show().siblings("pre").remove()
+                }
+            })
+            $(".photo a:eq(7)").click(function(){
+                var emb=$("embed").size()
+//                alert(emb);
+                if(emb==0){
+                    $('body').append('<embed src="music/Selena%20Gomez%20-%20The%20Heart%20Wants%20What%20It%20Wants.mp3" autostart="true" hidden="true" loop="false">');
+                    $("pre").clone().appendTo(".about-song").text("暂无歌词").prev("pre").hide()
+                }
+                else if(emb=1){
+                    $("embed").remove(); $("pre:first").show().siblings("pre").remove()
+                }
+            })
+            $(".photo a:eq(8)").click(function(){
+                var emb=$("embed").size()
+//                alert(emb);
+                if(emb==0){
+                    $('body').append('<embed src="music/Ed%20Sheeran%20-%20Sing.mp3" autostart="true" hidden="true" loop="false">');
+                    $("pre").clone().appendTo(".about-song").text("暂无歌词").prev("pre").hide()
+                }
+                else if(emb=1){
+                    $("embed").remove(); $("pre:first").show().siblings("pre").remove()
+                }
+            })
+            $(".photo a:eq(9)").click(function(){
+                var emb=$("embed").size()
+//                alert(emb);
+                if(emb==0){
+                    $('body').append('<embed src="music/Nicki%20Minaj%20-%20Truffle%20Butter%20(Explicit).mp3" autostart="true" hidden="true" loop="false">');
+                    $("pre").clone().appendTo(".about-song").text("暂无歌词").prev("pre").hide()
+                }
+                else if(emb=1){
+                    $("embed").remove(); $("pre:first").show().siblings("pre").remove()
+                }
+            })
+            $(".photo a:eq(10)").click(function(){
+                var emb=$("embed").size()
+//                alert(emb);
+                if(emb==0){
+                    $('body').append('<embed src="music/Years%20&%20Years%20-%20King.mp3" autostart="true" hidden="true" loop="false">');
+                    $("pre").clone().appendTo(".about-song").text("暂无歌词").prev("pre").hide()
+                }
+                else if(emb=1){
+                    $("embed").remove(); $("pre:first").show().siblings("pre").remove()
+                }
+            })
+            $(".photo a:eq(11)").click(function(){
+                var emb=$("embed").size()
+//                alert(emb);
+                if(emb==0){
+                    $('body').append('<embed src="music/Sia%20-%20Elastic%20Heart%20(Evian%20Christ%20Remix).mp3" autostart="true" hidden="true" loop="false">');
+                    $("pre").clone().appendTo(".about-song").text("暂无歌词").prev("pre").hide()
+                }
+                else if(emb=1){
+                    $("embed").remove(); $("pre:first").show().siblings("pre").remove()
+                }
+            })
+
+
+
+
+        })
+    </script>
+
+    <style>
+        * {
+
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            width: 100%;
+            height: 1500px;
+            /*max-height: 1600px;*/
+            /*max-height: 1500px;*/
+
+
+            font: 12px/1.8 Microsoft YaHei,simsong;
+            overflow: auto;
+            padding-top: 30px;
+            background: url(img/p_bg.jpg) center top #191616 no-repeat;
+            background-size: cover;
+            font: 12px/1.5 '\5FAE\8F6F\96C5\9ED1';
+            color: #999;
+
+
+        }
+
+        body h1{
+            font-size: 40px;
+            color: #ffffff;
+            font-weight: lighter;
+            padding-bottom: 30px;
+            text-indent: 5px;
+            text-shadow: 5px 5px 5px #000;
+
+        }
+        .pic h2{
+            text-align: center;
+            color: #000000;
+            /*background: #ffffff;*/
+            line-height: 30px;
+            height: 30px;
+            margin-top: 0px;
+            font-family:Helvetica;
+            line-height: 30px;
+             overflow: hidden        }
+        pre{
+            font-size: 20px;
+            color: #ffffff;
+            font-weight: lighter;
+            font-family: Helvetica "宋体";
+            height: 350px;
+            width: 600px;
+            overflow: auto;
+            padding-left: 10px;
+            text-shadow: 5px 5px 5px #000;
+            overflow-y:hidden ;
+
+        }
+        .photo{
+            width: 90%;
+            height: 100%;
+            overflow: hidden;
+            padding: 30px;
+            padding-top: 10px;
+            border: 0px solid green;
+            margin: 0 auto;
+
+
+
+        }
+        .pic{
+            width:29% ;height: 330px;
+            border: 5px solid #ffffff;
+            border-radius: 10px;
+            opacity: 1;
+            box-shadow: 0px 0px 15px white;
+            cursor: pointer;
+            float: left;
+            margin-right: 3%;
+            margin-bottom: 50px;
+            background:none repeat scroll 0 0 rgba(255,255,255,1);
+
+        }
+        .pic img{
+            width: 100%;height:300px;
+            border-radius: 4px;
+        }
+        .about-song{
+            display: none;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+<div class="photo">
+
+        <a href="#"><div title="《Love Me Harder》" class="pic"><img src="photograph/lm.jpg"><h2 title="歌手：Ariana Grande">《Love Me Harder》 Ariana Grande</h2></div></a>
+        <a href="#"><div title="《Sky》" class="pic"><img src="photograph/sky.jpg"><h2 title="歌手：Steerner">《Sky》 Steerner</h2></div></a>
+        <a href="#"><div title="《See You Again》" class="pic"><img src="photograph/0039Pp2W372JsM.jpg"><h2 title="歌手：Wiz Khalifa">《See You Again》 Wiz Khalifa</h2></div></a>
+        <a href="#"><div title="《Don't》" class="pic"style="clear: left"><img src="photograph/002ncLUm01rxX5.jpg"><h2 title="歌手：Ed Sheeran">《Don't》 Ed Sheeran</h2></div></a>
+        <a href="#"><div title="《Uptown Funk》" class="pic"><img src="photograph/uptown.jpg"><h2 title="歌手：Mark Ronson">《Uptown Funk》 Mark Ronson</h2></div></a>
+        <a href="#"><div title="《Want You to Know》" class="pic"><img src="photograph/want.jpg"><h2 title="歌手：Zedd">《Want You to Know》Zedd</h2></div></a>
+        <a href="#"><div title="《Chains》" class="pic"style="clear: left"><img src="photograph/000cgk2q2wSDHH.jpg"><h2 title="歌手：Nick Jonas">《Chains》Nick Jonas</h2></div></a>
+        <a href="#"><div title="《The Heart Wants It》" class="pic"><img src="photograph/sg.jpg"><h2 title="歌手：Selena Gomez">《The Heart Wants What It Wants》Selena Gomez</h2></div></a>
+        <a href="#"><div title="《Sing》" class="pic"><img src="photograph/sing.jpg"><h2 title="歌手：Ed Sheeran">《Sing》Ed Sheeran</h2></div></a>
+        <a href="#"><div title="《Truffle Butter》" class="pic"style="clear: left"><img src="photograph/tb.jpg"><h2 title="歌手：Nicki Minaj">《Truffle Butter》Nicki Minaj</h2></div></a>
+        <a href="#"><div title="《King》" class="pic"><img src="photograph/yy.jpg"><h2 title="歌手：Years & Years">《King》Years & Years</h2></div></a>
+        <a href="#"><div title="《Elastic Heart》" class="pic"><img src="photograph/eh.jpg"><h2 title="歌手：Sia">《Elastic Heart》Sia</h2></div></a>
+        <div style="float: left;margin-left: 60px" class="about-song">
+            <h1 class="t1">Love Me Harder</h1><h1 class="t2" style="font-size: 20px;text-indent: 30px">歌手：Ariana Grande</h1>
+            <pre>Tell me something I need to know
+Then take my breath and never let it go
+If you just let me invade your space
+I'll take the pleasure, take it with the pain
+And if in the moment I bite my lip
+Baby in that moment you know this is
+Something bigger than us and beyond bliss
+Give me a reason to believe it
+Cause if you want to keep me
+You gotta, gotta, gotta, gotta,
+got to love me harder
+And if you really need me
+You gotta, gotta, gotta, gotta,
+got to love me harder
+(Baby love me harder)
+Ooo love me, love me, love me
+Ooo harder, harder, harder
+I know your motives
+And you know mine
+The ones that love me
+I tend to leave behind
+If you know about me
+And choose to stay
+Then take this pleasure
+and take it with the pain
+And if in the moment you bite your lip
+When I get you moaning you'll know it's real
+Can you feel the pressure between your hips
+I'll make you feel like the first time
+Cause if you want to keep me
+You gotta, gotta, gotta, gotta,
+got to love me harder
+(Imma love ya harder)
+And if you really need me
+You gotta, gotta, gotta, gotta,
+got to love me harder
+(Love me harder)
+Ooo love me, love me, love me
+Ooo harder, harder, harder
+Ooo love me, love me, love me
+Ooo harder, harder, harder
+(Love me harder)
+So what do I do if I can't figure it out
+You got to try, try, try again
+So what do I do if I can't figure it out
+I'm gonna leave, leave, leave again
+Cause it you want to keep me
+You gotta, gotta, gotta, gotta,
+got to love me harder
+(I will love, love, love)
+And if you really need me
+You gotta, gotta, gotta, gotta,
+got to love me harder
+(Love, love baby)
+Cause if you want to keep me
+You gotta, gotta, gotta, gotta,
+got to love me harder
+(Love me harder)
+And if you really need me
+You gotta, gotta, gotta, gotta,
+got to love me harder(I'm gonna do it,do it)
+(Imma love ya harder)
+Ooo love me, love me,love me (Love you)
+Ooo harder,harder,harder(Love me,love me baby)
+Ooo love me, love me, love me
+(Just a little bit harder, harder baby)
+Ooo harder, harder, harder
+            </pre>
+        </div>
+</div>
+<!--<div style="width: 700px;height: 488px;border: 1px solid #ffffff;position: absolute;left: 35%;top: 400px"><embed-->
+        <!--wmode="window"-->
+        <!--flashvars="vid=c0015ybirmy&amp;autoplay=1&amp;list=2&amp;adplay=1&amp;showcfg=0&amp;tpid=0&amp;share=1&amp;title=Love%20Me%20Harder&amp;playertype=6&amp;chid=1003"-->
+        <!--src="http://imgcache.qq.com/music/js/flash/TencentPlayer.swf"-->
+        <!--quality="high"-->
+        <!--name="tenvideo_flash_player_1430229890828"-->
+        <!--id="tenvideo_flash_player_1430229890828"-->
+        <!--bgcolor="#000000" width="700" height="488" align="middle"-->
+        <!--allowscriptaccess="always" allowfullscreen="true"-->
+        <!--type="application/x-shockwave-flash" pluginspage="http://get.adobe.com/cn/flashplayer/"></div>-->
+
+</body>
+</html>
