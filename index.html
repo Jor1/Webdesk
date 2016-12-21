@@ -35,7 +35,7 @@
     </div>
     <div id="desk">
         <ul>
-            <li title="听音乐"  shortcut="0" style="left:20px;top:20px" class="window-type">
+            <li title="听音乐"  shortcut="0" class="window-type" id="music">
                 <img src="img/qqmusic.png">
                 <span>听音乐</span>
                 <em></em>
@@ -43,16 +43,16 @@
             <div style="height: 100%;display: none" class="window"title="网页版QQ">
                 <div style="opacity: 0.9" class="title-frame">
                     <h3>听音乐</h3>
-                    <a class="close-window">关闭</a>
+                    <a class="close-window" id="music-close">关闭</a>
                     <a class="max-big">最大化</a>
                     <a class="max-small">还原</a>
                     <a class="reload"name="sxMusic"onclick="window.open(document.all.music.src,'music','')">刷新</a>
                 </div>
                 <div class="window-frame">
-                    <iframe name="music" id="frameMusic" frameborder="0" src="music.html"></iframe>
+                    <iframe name="music" id="frame-music" frameborder="0" src=""></iframe>
                 </div>
             </div>
-            <li class="qq" title="聊天" shortcut="1" style="left: 110px; top: 20px;"class="window-type">
+            <li class="qq" title="聊天" shortcut="1" class="window-type" id="qq">
                 <img src="img/QQtalk.jpg">
                 <span>聊天</span>
                 <em></em>
@@ -60,16 +60,16 @@
             <div style="height: 100%;display: none" class="window"title="网页版QQ">
                 <div class="title-frame">
                     <h3>网页版QQ</h3>
-                    <a class="close-window">关闭</a>
+                    <a class="close-window" id="close-qq">关闭</a>
                     <a class="max-big">最大化</a>
                     <a class="max-small">还原</a>
                     <a class="reload"name="sxqq"onclick="window.open(document.all.aqq.src,'aqq','')">刷新</a>
                 </div>
                 <div class="window-frame">
-                    <iframe name="aqq" id="frameqq" frameborder="0" src="qq.html"></iframe>
+                    <iframe name="aqq" id="frame-qq" frameborder="0" src=""></iframe>
                 </div>
             </div>
-            <li title="我的相册" shortcut="2" style="left: 200px; top: 20px;"class="window-type">
+            <li title="我的相册" shortcut="2" class="window-type" id="my-pt">
                 <img src="img/photo.png">
                 <span>我的相册</span>
                 <em></em>
@@ -83,10 +83,10 @@
                 <a class="reload"name="pt"onclick="window.open(document.all.photo.src,'photo','')">刷新</a>
             </div>
             <div class="window-frame">
-                <iframe name="photo" id="frame-pt" frameborder="0" src="photograph.html"></iframe>
+                <iframe name="photo" id="frame-pt" frameborder="0" src=""></iframe>
             </div>
             </div>
-            <li title="百度一下，你就知道" shortcut="3" style="left: 290px; top: 20px;"class="window-type">
+            <li title="百度一下，你就知道" shortcut="3" class="window-type" id="baidu">
                 <img src="img/baidui.jpg">
                 <span>百度</span>
                 <em></em>
@@ -94,18 +94,16 @@
             <div style="height: 100%;display: none" class="window"title="百度一下，你就知道">
                 <div class="title-frame">
                     <h3>百度一下，你就知道</h3>
-                    <a class="close-window">关闭</a>
+                    <a class="close-window" id="close-baidu">关闭</a>
                     <a class="max-big">最大化</a>
                     <a class="max-small">还原</a>
                     <a class="reload"name="sxb"onclick="window.open(document.all.ab.src,'ab','')">刷新</a>
                 </div>
                 <div class="window-frame">
-                    <iframe name="ab" id="frameb" frameborder="0" src="http://www.baidu.com">
-
-                    </iframe>
+                    <iframe name="ab" id="frame-baidu" frameborder="0" src=""></iframe>
                 </div>
             </div>
-            <li title="nba" shortcut="5" style="left: 470px; top: 20px;"class="window-type" id="nba">
+            <li title="nba" shortcut="5" class="window-type" id="nba">
                 <img src="img/nba.png">
                 <span>NBA季后赛</span>
                 <em></em>
@@ -119,12 +117,10 @@
                     <a class="reload"name="sx"onclick="window.open(document.all.nba.src,'nba','')">刷新</a>
                 </div>
                 <div class="window-frame">
-                    <iframe name="nba" id="frame-nba" frameborder="0" src="">
-
-                    </iframe>
+                    <iframe name="nba" id="frame-nba" frameborder="0" src=""></iframe>
                 </div>
             </div>
-            <li title="看直播" shortcut="6" style="left: 560px; top: 20px;"class="window-type" id="douyu">
+            <li title="看直播" shortcut="6" class="window-type" id="douyu">
                 <img src="img/douyu.jpg">
                 <span>看直播</span>
                 <em></em>
@@ -138,12 +134,10 @@
                     <a class="reload"name="dy"onclick="window.open(document.all.douyu.src,'douyu','')">刷新</a>
                 </div>
                 <div class="window-frame">
-                    <iframe name="douyu" id="frame-dy" frameborder="0" src="">
-
-                    </iframe>
+                    <iframe name="douyu" id="frame-dy" frameborder="0" src=""></iframe>
                 </div>
             </div>
-            <li shortcut="7" style="left: 650px; top: 20px;"class="window-type">
+            <li shortcut="7" class="window-type" id="lol-skin">
                 <img src="champions/Ahri_Square_0.png">
                 <span>LOL skin</span>
                 <em></em>
@@ -151,18 +145,16 @@
             <div class="window">
                 <div class="title-frame">
                     <h3>LOL skin</h3>
-                    <a class="close-window">关闭</a>
+                    <a class="close-window" id="close-skin">关闭</a>
                     <a class="max-big">最大化</a>
                     <a class="max-small">还原</a>
                     <a class="reload"name="pf"onclick="window.open(document.all.ah.src,'ah','')">刷新</a>
                 </div>
                 <div class="window-frame">
-                    <iframe name="ah" id="framepf" frameborder="0" src="ahri.html">
-
-                    </iframe>
+                    <iframe name="ah" id="frame-skin" frameborder="0" src="ahri.html"></iframe>
                 </div>
             </div>
-            <li title="常用网站" shortcut="8" style="left: 740px; top: 20px;"class="window-type">
+            <li title="常用网站" shortcut="8" class="window-type" id="fw">
                 <img src="img/fav.png">
                 <span>常用网站</span>
                 <em></em>
@@ -170,18 +162,16 @@
             <div class="window">
                 <div class="title-frame">
                     <h3>常用网站</h3>
-                    <a class="close-window">关闭</a>
+                    <a class="close-window" id="close-fw">关闭</a>
                     <a class="max-big">最大化</a>
                     <a class="max-small">还原</a>
                     <a class="reload"name="wb"onclick="window.open(document.all.wbb.src,'wbb','')">刷新</a>
                 </div>
                 <div class="window-frame">
-                    <iframe name="wbb" id="framewb" frameborder="0" src="favorite-web.html">
-
-                    </iframe>
+                    <iframe name="wbb" id="frame-fw" frameborder="0" src=""></iframe>
                 </div>
             </div>
-            <li  title="卸怒游戏：压扁小鸟" shortcut="9" style="left: 830px; top: 20px;"class="window-type">
+            <li  title="卸怒游戏：压扁小鸟" shortcut="9" class="window-type" id="bird">
                 <img src="img/bird.jpg">
                 <span>压扁小鸟</span>
                 <em></em>
@@ -189,18 +179,16 @@
             <div class="window">
                 <div class="title-frame">
                     <h3>卸怒游戏：压扁小鸟</h3>
-                    <a class="close-window">关闭</a>
+                    <a class="close-window" id="close-bird">关闭</a>
                     <a class="max-big">最大化</a>
                     <a class="max-small">还原</a>
                     <a class="reload"name="gm"onclick="window.open(document.all.game.src,'game','')">刷新</a>
                 </div>
                 <div class="window-frame">
-                    <iframe name="game" id="framegm" frameborder="0" src="http://play.h5.gamedog.cn/ybxn/">
-
-                    </iframe>
+                    <iframe name="game" id="frame-bird" frameborder="0" src=""></iframe>
                 </div>
             </div>
-            <li  title="WebMV－Love me like you do" shortcut="10" style="left: 830px; top: 20px;"class="window-type" id="web_mv">
+            <li  title="WebMV－Love me like you do" shortcut="10" class="window-type" id="web_mv">
                 <img src="img/qqmusic.png">
                 <span>WebMV－Love me like you do</span>
                 <em></em>
@@ -214,12 +202,10 @@
                     <a class="reload"name="gm"onclick="window.open(document.all.webmv.src,'webmv','')">刷新</a>
                 </div>
                 <div class="window-frame">
-                    <iframe name="webmv" id="frame-mv" frameborder="0" src="webmv/music.html">
-
-                    </iframe>
+                    <iframe name="webmv" id="frame-mv" frameborder="0" src=""></iframe>
                 </div>
             </div>
-            <li title="离开" class="leave" shortcut="12" style="left: 830px; top: 20px;">
+            <li title="离开" class="leave" shortcut="12">
                 <img src="img/file.png">
                 <span>离开</span>
                 <em></em>
@@ -231,7 +217,7 @@
             </li>
         </ul>
 	</div>
-    <div id="bottom-set"style="z-index:2000;position:absolute;">
+    <div id="bottom-set" style="z-index:2000;position:absolute;">
         <h3>任务栏颜色设置</h3>
         <ul>
             <li style="background:none repeat scroll 0 0 rgba(170,170,170, 0.9) "></li>
