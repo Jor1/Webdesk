@@ -21,14 +21,15 @@
     <title>赵瑞的个人主页——WebDesk网页桌面--最酷炫的web桌面！ </title>
 </head>
 <body onload="startTime()"ondragstart="window.event.returnValue=false"oncontextmenu="window.event.returnValue=false"onselectstart="event.returnValue=false">
-      <div class="my-music">
-      	<a class="close-music">关闭</a>
-          <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=0&id=543164272&auto=1&height=430"></iframe>
-          </div>
-      <div class="bottom">
+    <div class="my-music">
+        <a class="close-music">关闭</a>
+        <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=0&id=543164272&auto=1&height=430"></iframe>
+    </div>
+    <div class="bottom">
         <ul class="bottom-ul">
             <li>
-                <img  style="float: left" src="img/baidui.jpg"width="30px"height="30px"><h2 class="bottom-item"></h2>
+                <img style="float: left" src="img/baidui.jpg" width="30px" height="30px">
+                <h2 class="bottom-item"></h2>
             </li>
         </ul>
         <div id="dayTime"></div> 
@@ -40,13 +41,13 @@
                 <span>听音乐</span>
                 <em></em>
             </li>
-            <div style="height: 100%;display: none" class="window"title="网页版QQ">
+            <div style="height: 100%;display: none" class="window" title="网页版QQ">
                 <div style="opacity: 0.9" class="title-frame">
                     <h3>听音乐</h3>
                     <a class="close-window" id="music-close">关闭</a>
                     <a class="max-big">最大化</a>
                     <a class="max-small">还原</a>
-                    <a class="reload"name="sxMusic"onclick="window.open(document.all.music.src,'music','')">刷新</a>
+                    <a class="reload" name="sxMusic" onclick="window.open(document.all.music.src,'music','')">刷新</a>
                 </div>
                 <div class="window-frame">
                     <iframe name="music" id="frame-music" frameborder="0" src=""></iframe>
@@ -57,13 +58,13 @@
                 <span>聊天</span>
                 <em></em>
             </li>
-            <div style="height: 100%;display: none" class="window"title="网页版QQ">
+            <div style="height: 100%;display: none" class="window" title="网页版QQ">
                 <div class="title-frame">
                     <h3>网页版QQ</h3>
                     <a class="close-window" id="close-qq">关闭</a>
                     <a class="max-big">最大化</a>
                     <a class="max-small">还原</a>
-                    <a class="reload"name="sxqq"onclick="window.open(document.all.aqq.src,'aqq','')">刷新</a>
+                    <a class="reload" name="sxqq" onclick="window.open(document.all.aqq.src,'aqq','')">刷新</a>
                 </div>
                 <div class="window-frame">
                     <iframe name="aqq" id="frame-qq" frameborder="0" src=""></iframe>
@@ -75,16 +76,16 @@
                 <em></em>
             </li>
             <div class="window">
-            <div class="title-frame">
-                <h3>我的相册</h3>
-                <a class="close-window"id="close-photo">关闭</a>
-                <a class="max-big">最大化</a>
-                <a class="max-small">还原</a>
-                <a class="reload"name="pt"onclick="window.open(document.all.photo.src,'photo','')">刷新</a>
-            </div>
-            <div class="window-frame">
-                <iframe name="photo" id="frame-pt" frameborder="0" src=""></iframe>
-            </div>
+                <div class="title-frame">
+                    <h3>我的相册</h3>
+                    <a class="close-window"id="close-photo">关闭</a>
+                    <a class="max-big">最大化</a>
+                    <a class="max-small">还原</a>
+                    <a class="reload" name="pt" onclick="window.open(document.all.photo.src,'photo','')">刷新</a>
+                </div>
+                <div class="window-frame">
+                    <iframe name="photo" id="frame-pt" frameborder="0" src=""></iframe>
+                </div>
             </div>
             <li title="百度一下，你就知道" shortcut="3" class="window-type" id="baidu">
                 <img src="img/baidui.jpg">
@@ -97,7 +98,7 @@
                     <a class="close-window" id="close-baidu">关闭</a>
                     <a class="max-big">最大化</a>
                     <a class="max-small">还原</a>
-                    <a class="reload"name="sxb"onclick="window.open(document.all.ab.src,'ab','')">刷新</a>
+                    <a class="reload" name="sxb" onclick="window.open(document.all.ab.src,'ab','')">刷新</a>
                 </div>
                 <div class="window-frame">
                     <iframe name="ab" id="frame-baidu" frameborder="0" src=""></iframe>
@@ -114,7 +115,7 @@
                     <a class="close-window"id="close-nba">关闭</a>
                     <a class="max-big">最大化</a>
                     <a class="max-small">还原</a>
-                    <a class="reload"name="sx"onclick="window.open(document.all.nba.src,'nba','')">刷新</a>
+                    <a class="reload" name="sx" onclick="window.open(document.all.nba.src,'nba','')">刷新</a>
                 </div>
                 <div class="window-frame">
                     <iframe name="nba" id="frame-nba" frameborder="0" src=""></iframe>
@@ -131,7 +132,7 @@
                     <a class="close-window"id="close-dy">关闭</a>
                     <a class="max-big">最大化</a>
                     <a class="max-small">还原</a>
-                    <a class="reload"name="dy"onclick="window.open(document.all.douyu.src,'douyu','')">刷新</a>
+                    <a class="reload" name="dy" onclick="window.open(document.all.douyu.src,'douyu','')">刷新</a>
                 </div>
                 <div class="window-frame">
                     <iframe name="douyu" id="frame-dy" frameborder="0" src=""></iframe>
@@ -148,7 +149,7 @@
                     <a class="close-window" id="close-skin">关闭</a>
                     <a class="max-big">最大化</a>
                     <a class="max-small">还原</a>
-                    <a class="reload"name="pf"onclick="window.open(document.all.ah.src,'ah','')">刷新</a>
+                    <a class="reload" name="pf" onclick="window.open(document.all.ah.src,'ah','')">刷新</a>
                 </div>
                 <div class="window-frame">
                     <iframe name="ah" id="frame-skin" frameborder="0" src=""></iframe>
@@ -165,7 +166,7 @@
                     <a class="close-window" id="close-fw">关闭</a>
                     <a class="max-big">最大化</a>
                     <a class="max-small">还原</a>
-                    <a class="reload"name="wb"onclick="window.open(document.all.wbb.src,'wbb','')">刷新</a>
+                    <a class="reload" name="wb" onclick="window.open(document.all.wbb.src,'wbb','')">刷新</a>
                 </div>
                 <div class="window-frame">
                     <iframe name="wbb" id="frame-fw" frameborder="0" src=""></iframe>
@@ -182,7 +183,7 @@
                     <a class="close-window" id="close-bird">关闭</a>
                     <a class="max-big">最大化</a>
                     <a class="max-small">还原</a>
-                    <a class="reload"name="gm"onclick="window.open(document.all.game.src,'game','')">刷新</a>
+                    <a class="reload" name="gm" onclick="window.open(document.all.game.src,'game','')">刷新</a>
                 </div>
                 <div class="window-frame">
                     <iframe name="game" id="frame-bird" frameborder="0" src=""></iframe>
@@ -199,7 +200,7 @@
                     <a class="close-window" id="close-mv">关闭</a>
                     <a class="max-big">最大化</a>
                     <a class="max-small">还原</a>
-                    <a class="reload"name="gm"onclick="window.open(document.all.webmv.src,'webmv','')">刷新</a>
+                    <a class="reload" name="gm" onclick="window.open(document.all.webmv.src,'webmv','')">刷新</a>
                 </div>
                 <div class="window-frame">
                     <iframe name="webmv" id="frame-mv" frameborder="0" src=""></iframe>
@@ -259,19 +260,19 @@
         <div class="gif"><img src="img/load.gif"></div>
         <h3>赵瑞制作</h3>
     </div>
-		<!-- JiaThis Button BEGIN -->
-		<div class="jiathis_style_24x24" style="position: absolute;bottom: 50px;right: 10px;">
-			<a href="tencent://AddContact/?fromId=45&amp;fromSubId=1&amp;subcmd=all&amp;uin=97646476&amp;website=www.oicqzone.com"  style="float: left;color: inherit;text-decoration: none;" target="_blank">点击添加我为QQ好友 </a>
-			<a style="float: left;margin-left: 10px;">分享本网页给朋友：</a>
-			<a class="jiathis_button_qzone"></a>
-			<a class="jiathis_button_tsina"></a>
-			<a class="jiathis_button_tqq"></a>
-			<a class="jiathis_button_weixin"></a>
-			<a class="jiathis_button_renren"></a>
-			<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
-			<a class="jiathis_counter_style"></a>
-		</div>
-		<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
-		<!-- JiaThis Button END -->
+    <!-- JiaThis Button BEGIN -->
+    <div class="jiathis_style_24x24" style="position: absolute;bottom: 50px;right: 10px;">
+        <a href="tencent://AddContact/?fromId=45&amp;fromSubId=1&amp;subcmd=all&amp;uin=97646476&amp;website=www.oicqzone.com"  style="float: left;color: inherit;text-decoration: none;" target="_blank">点击添加我为QQ好友 </a>
+        <a style="float: left;margin-left: 10px;">分享本网页给朋友：</a>
+        <a class="jiathis_button_qzone"></a>
+        <a class="jiathis_button_tsina"></a>
+        <a class="jiathis_button_tqq"></a>
+        <a class="jiathis_button_weixin"></a>
+        <a class="jiathis_button_renren"></a>
+        <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+        <a class="jiathis_counter_style"></a>
+    </div>
+    <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+    <!-- JiaThis Button END -->
 </body>
 </html>
