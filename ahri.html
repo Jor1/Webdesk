@@ -1,37 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>英雄联盟英雄资料站</title>
+    <title>LOL skin</title>
     <meta content="text/html;charset=UTF-8"
           http-equiv="content-type">
     <script type="text/javascript" src="jquery/jquery-1.8.2.js"></script>
-    <script>
-        $(function(){
-            $("#skinNAV a").hover(function(){
-                $(this).css({outline:"5px solid #00A483"})
-            },function(){
-                $(this).css({outline:"none"})
-            })
-            $("#skinNAV li").click(function(){
-                var v=$(this).index()
-                var t=$(this).find("a").attr("title")
-//                alert(t)
-
-                var  m=v*980;
-//                alert(m)
-                $(".skin-block").animate({right:m})
-                $("#skinName").text(t)
-
-            })
-
-
-        })
-    </script>
     <style>
-        *{margin: 0;padding: 0}
+        *{
+            margin: 0;
+            padding: 0
+        }
         ul{
             list-style-type: none;
-
         }
         ol, ul {
             list-style: outside none none;
@@ -40,10 +20,8 @@
             text-decoration: none;
         }
         body{
-            /*background-color: #131A20;*/
             background-color: #F7F7F7;
             font-family: "黑体";
-            /*overflow: hidden;*/
             padding-top: 0px;
             padding-bottom: 30px;
             font-size: 14px;
@@ -56,13 +34,11 @@
             background-size: 100%;
             background-repeat: no-repeat;
             background-position: 0% 55%;
-
         }
         .heading .logo{
             width: 400px;
             height: 300px;
             margin: 0px auto;
-
             opacity: 0.8;
         }
         .head-title{
@@ -79,7 +55,6 @@
         }
         .champions{
             width: 100%;
-            /*height: 1600px;*/
             background-color: #F7F7F7;
             padding-top: 0px;
             padding-bottom: 100px;
@@ -103,7 +78,6 @@
             margin: 0 auto;
             position: relative;
             overflow: hidden;
-
         }
         .info .sbg {
             background: none repeat scroll 0 0 #000;
@@ -115,10 +89,8 @@
             width: 305px;
             z-index: 2;
         }
-
         .skin-block {
             height: 500px;
-            /*overflow: hidden;*/
             position: relative;
             width: 100%;
             background-image: url("champions/Ahri_Splash_0.jpg");
@@ -131,7 +103,6 @@
             top: 30px;
             width: 270px;
             z-index: 3;
-
         }
         .data h1 {
             font-size: 24px;
@@ -143,7 +114,6 @@
             font-size: 42px;
             padding-bottom: 30px;
         }
-
         .d-tags {
             overflow: hidden;
         }
@@ -156,7 +126,6 @@
             text-align: center;
             width: 35px;
         }
-
         .d-vod {
             background: none repeat scroll 0 0 #000;
             border: 1px solid #363c3c;
@@ -182,7 +151,8 @@
         .commspr {
             background-image: url("http://ossweb-img.qq.com/images/lol/web201310/page.png?d=20131230");
             background-repeat: no-repeat;
-            display: inline-block;}
+            display: inline-block;
+        }
         .d-stat {
             height: 90px;
             margin-top: 25px;
@@ -195,7 +165,6 @@
             margin-bottom: 5px;
             width: 40%;
         }
-
         .d-stat dd {
             background: none repeat scroll 0 0 #363c3c;
             float: left;
@@ -219,11 +188,9 @@
         .d-stat .up4 {
             background: none repeat scroll 0 0 #1eca6b;
         }
-
         .d-buy {
             margin-top: 15px;
         }
-
         .buy {
             background-image: url("http://ossweb-img.qq.com/images/lol/web201310/page.png?d=20131230");
             background-repeat: no-repeat;
@@ -242,7 +209,6 @@
             float: left;
             width: 980px;
         }
-
         .d-skin-nav {
             bottom: 10px;
             padding-left: 306px;
@@ -272,124 +238,137 @@
             position: relative;
             width: 60px;
         }
-
     </style>
 </head>
 <body>
     <div class="heading">
-        <div class="logo"><img src="img/lollogo.jpg"width="400px"height="300px"></div>
+        <div class="logo">
+            <img src="img/lollogo.jpg"width="400px"height="300px">
+        </div>
         <div class="head-title">英雄资料站</div>
     </div>
     <div class="champions">
-        <div class="champion-title"><h2>> 九尾妖狐 阿狸</h2></div>
-        
-    <div class="slider">
-        <div class="info">
-            <div class="data">
-                <h1 id="DATAname">九尾妖狐</h1>
-                <h2 id="DATAtitle">阿狸</h2>
-                <div id="DATAtags" class="d-tags">
-                    <span>法师</span>
-                    <span>刺客</span>
-                </div>
-                <div id="dtVideo" class="d-vod" title="点击观看视频">
-                    <i class="commspr commico-vod"></i>
-                </div>
-                <dl id="DATAinfo" class="d-stat">
-                    <dt>物理攻击</dt>
-                    <dd>
-                        <i class="up up1" style="width:30%" title="3"></i>
-                    </dd>
-                    <dt>魔法攻击</dt>
-                    <dd>
-                        <i class="up up2" style="width:80%" title="8"></i>
-                    </dd>
-                    <dt>防御能力</dt>
-                    <dd>
-                        <i class="up up3" style="width:40%" title="4"></i>
-                    </dd>
-                    <dt>上手难度</dt>
-                    <dd>
-                        <i class="up up4" style="width:50%" title="5"></i>
-                    </dd>
-                </dl>
-                <div class="d-buy">
-                    <a  class="buy" target="_blank" href="#">购买英雄</a>
-                </div>
-            </div>
-            <span class="sbg"></span>
-            <div class="skin-block">
-                <ul id="skinBG" class="d-skin-bg" style="left: 0px;">
-                    <li title="默认皮肤">
-                        <img alt="默认皮肤" src="http://ossweb-img.qq.com/images/lol/web201310/skin/big103000.jpg">
-                    </li>
-                    <li title="高丽风情 阿狸">
-                        <img alt="高丽风情 阿狸" src="http://ossweb-img.qq.com/images/lol/web201310/skin/big103001.jpg">
-                    </li>
-                    <li title="暗影妖狐 阿狸">
-                        <img alt="暗影妖狐 阿狸" src="http://ossweb-img.qq.com/images/lol/web201310/skin/big103002.jpg">
-                    </li>
-                    <li title="焰尾妖狐 阿狸">
-                        <img alt="焰尾妖狐 阿狸" src="http://ossweb-img.qq.com/images/lol/web201310/skin/big103003.jpg">
-                    </li>
-                    <li title="偶像歌手 阿狸">
-                        <img alt="偶像歌手 阿狸" src="http://ossweb-img.qq.com/images/lol/web201310/skin/big103004.jpg">
-                    </li>
-                    <li title="勇者 阿狸">
-                        <img alt="勇者 阿狸" src="http://ossweb-img.qq.com/images/lol/web201310/skin/big103005.jpg">
-                    </li>
-                </ul>
-            </div>
-            <div class="d-skin-nav">
-                <div class="d-skin-name">
-                    <span id="skinName">默认皮肤</span>
-                </div>
-                <ul id="skinNAV">
-                    <li class="current" rel="_0">
-                        <a title="默认皮肤">
-                            <img width="60" height="60" alt="默认皮肤" src="http://ossweb-img.qq.com/images/lol/web201310/skin/small103000.jpg">
-                            <span class="sbor"></span>
-                        </a>
-                    </li>
-                    <li class="" rel="_1">
-                        <a title="高丽风情 阿狸">
-                            <img width="60" height="60" alt="高丽风情 阿狸" src="http://ossweb-img.qq.com/images/lol/web201310/skin/small103001.jpg">
-                            <span class="sbor"></span>
-                        </a>
-                    </li>
-                    <li class="" rel="_2">
-                        <a title="暗影妖狐 阿狸">
-                            <img width="60" height="60" alt="暗影妖狐 阿狸" src="http://ossweb-img.qq.com/images/lol/web201310/skin/small103002.jpg">
-                            <span class="sbor"></span>
-                        </a>
-                    </li>
-                    <li rel="_3">
-                        <a title="焰尾妖狐 阿狸">
-                            <img width="60" height="60" alt="焰尾妖狐 阿狸" src="http://ossweb-img.qq.com/images/lol/web201310/skin/small103003.jpg">
-                            <span class="sbor"></span>
-                        </a>
-                    </li>
-                    <li rel="_4">
-                        <a title="偶像歌手 阿狸">
-                            <img width="60" height="60" alt="偶像歌手 阿狸" src="http://ossweb-img.qq.com/images/lol/web201310/skin/small103004.jpg">
-                            <span class="sbor"></span>
-                        </a>
-                    </li>
-                    <li rel="_5">
-                        <a title="勇者 阿狸">
-                            <img width="60" height="60" alt="勇者 阿狸" src="http://ossweb-img.qq.com/images/lol/web201310/skin/small103005.jpg">
-                            <span class="sbor"></span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-
-            
-
+        <div class="champion-title">
+            <h2>> 九尾妖狐 阿狸</h2>
         </div>
-
+        <div class="slider">
+            <div class="info">
+                <div class="data">
+                    <h1 id="DATAname">九尾妖狐</h1>
+                    <h2 id="DATAtitle">阿狸</h2>
+                    <div id="DATAtags" class="d-tags">
+                        <span>法师</span>
+                        <span>刺客</span>
+                    </div>
+                    <div id="dtVideo" class="d-vod" title="点击观看视频">
+                        <i class="commspr commico-vod"></i>
+                    </div>
+                    <dl id="DATAinfo" class="d-stat">
+                        <dt>物理攻击</dt>
+                        <dd>
+                            <i class="up up1" style="width:30%" title="3"></i>
+                        </dd>
+                        <dt>魔法攻击</dt>
+                        <dd>
+                            <i class="up up2" style="width:80%" title="8"></i>
+                        </dd>
+                        <dt>防御能力</dt>
+                        <dd>
+                            <i class="up up3" style="width:40%" title="4"></i>
+                        </dd>
+                        <dt>上手难度</dt>
+                        <dd>
+                            <i class="up up4" style="width:50%" title="5"></i>
+                        </dd>
+                    </dl>
+                    <div class="d-buy">
+                        <a  class="buy" target="_blank" href="#">购买英雄</a>
+                    </div>
+                </div>
+                <span class="sbg"></span>
+                <div class="skin-block">
+                    <ul id="skinBG" class="d-skin-bg" style="left: 0px;">
+                        <li title="默认皮肤">
+                            <img alt="默认皮肤" src="http://ossweb-img.qq.com/images/lol/web201310/skin/big103000.jpg">
+                        </li>
+                        <li title="高丽风情 阿狸">
+                            <img alt="高丽风情 阿狸" src="http://ossweb-img.qq.com/images/lol/web201310/skin/big103001.jpg">
+                        </li>
+                        <li title="暗影妖狐 阿狸">
+                            <img alt="暗影妖狐 阿狸" src="http://ossweb-img.qq.com/images/lol/web201310/skin/big103002.jpg">
+                        </li>
+                        <li title="焰尾妖狐 阿狸">
+                            <img alt="焰尾妖狐 阿狸" src="http://ossweb-img.qq.com/images/lol/web201310/skin/big103003.jpg">
+                        </li>
+                        <li title="偶像歌手 阿狸">
+                            <img alt="偶像歌手 阿狸" src="http://ossweb-img.qq.com/images/lol/web201310/skin/big103004.jpg">
+                        </li>
+                        <li title="勇者 阿狸">
+                            <img alt="勇者 阿狸" src="http://ossweb-img.qq.com/images/lol/web201310/skin/big103005.jpg">
+                        </li>
+                    </ul>
+                </div>
+                <div class="d-skin-nav">
+                    <div class="d-skin-name">
+                        <span id="skinName">默认皮肤</span>
+                    </div>
+                    <ul id="skinNAV">
+                        <li class="current" rel="_0">
+                            <a title="默认皮肤">
+                                <img width="60" height="60" alt="默认皮肤" src="http://ossweb-img.qq.com/images/lol/web201310/skin/small103000.jpg">
+                                <span class="sbor"></span>
+                            </a>
+                        </li>
+                        <li class="" rel="_1">
+                            <a title="高丽风情 阿狸">
+                                <img width="60" height="60" alt="高丽风情 阿狸" src="http://ossweb-img.qq.com/images/lol/web201310/skin/small103001.jpg">
+                                <span class="sbor"></span>
+                            </a>
+                        </li>
+                        <li class="" rel="_2">
+                            <a title="暗影妖狐 阿狸">
+                                <img width="60" height="60" alt="暗影妖狐 阿狸" src="http://ossweb-img.qq.com/images/lol/web201310/skin/small103002.jpg">
+                                <span class="sbor"></span>
+                            </a>
+                        </li>
+                        <li rel="_3">
+                            <a title="焰尾妖狐 阿狸">
+                                <img width="60" height="60" alt="焰尾妖狐 阿狸" src="http://ossweb-img.qq.com/images/lol/web201310/skin/small103003.jpg">
+                                <span class="sbor"></span>
+                            </a>
+                        </li>
+                        <li rel="_4">
+                            <a title="偶像歌手 阿狸">
+                                <img width="60" height="60" alt="偶像歌手 阿狸" src="http://ossweb-img.qq.com/images/lol/web201310/skin/small103004.jpg">
+                                <span class="sbor"></span>
+                            </a>
+                        </li>
+                        <li rel="_5">
+                            <a title="勇者 阿狸">
+                                <img width="60" height="60" alt="勇者 阿狸" src="http://ossweb-img.qq.com/images/lol/web201310/skin/small103005.jpg">
+                                <span class="sbor"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
-    </div>
-
+<script>
+    $(function(){
+        $("#skinNAV a").hover(function(){
+            $(this).css({outline:"5px solid #00A483"});
+        },function(){
+            $(this).css({outline:"none"});
+        });
+        $("#skinNAV li").click(function(){
+            var v=$(this).index();
+            var t=$(this).find("a").attr("title");
+            var  m=v*980;
+            $(".skin-block").animate({right:m});
+            $("#skinName").text(t);
+        });
+    });
+</script>
 </body>
 </html>
