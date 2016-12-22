@@ -109,7 +109,7 @@ $(function(){
         $(this).next("div").find("iframe").attr("src","douyu.html");
     });
     $("#web_mv").click(function(){
-        $(this).next("div").find("iframe").attr("src","music.html");
+        $(this).next("div").find("iframe").attr("src","webmv/music.html");
     });
     $("#lol-skin").click(function(){
         $(this).next("div").find("iframe").attr("src","ahri.html");
