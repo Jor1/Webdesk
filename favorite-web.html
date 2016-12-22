@@ -5,30 +5,8 @@
     <meta content="text/html;charset=UTF-8"
           http-equiv="content-type">
     <script type="text/javascript" src="jquery/jquery-2.1.3.js"></script>
-    <script>
-       $(function(){
-                $(".nine div").hover(
-                        function(){
-                            $(this).children("img").animate({opacity:1});
-
-                        });
-           $("img").hover(
-                   function(){
-                       $(this).animate({ textIndent: 0}, {
-               step: function(now,fx) {
-
-                   $(this).css('-webkit-transform','rotate('+now+'deg)');},duration:'slow'},'linear');},function(){
-                       $(this).animate({ textIndent: 360})
-                   })
-
-
-
-            })
-
-    </script>
     <style>
         * {
-
             margin: 0;
             padding: 0;
         }
@@ -40,7 +18,6 @@
             background-position: center top;
             background-repeat: no-repeat;
             background-size: cover;
-
             font: 12px/1.8 Microsoft YaHei,simsong;
             overflow: auto;
             padding-top: 0px;
@@ -58,16 +35,10 @@
         .nine div{
             width: 200px;
             height: 200px;
-            /*background-color: #000000;*/
             float: left;
             margin: 5px;
             opacity: 0.9;
             border-radius: 10px;
-
-
-
-
-
         }
         .nine div img{
             width: 200px;
@@ -75,10 +46,7 @@
             border-radius: 10px;
             text-indent: 360px;
             cursor: pointer;
-
-
         }
-
     </style>
 </head>
 <body>
@@ -113,7 +81,6 @@
     <div>
         <img src="img/1.png">
     </div>
-
     <div>
         <img src="img/wylesson.png">
     </div>
@@ -126,8 +93,19 @@
     <div>
         <img src="img/az.png">
     </div>
-
 </div>
-
+<script>
+    $(function(){
+        $(".nine div").hover(
+            function(){
+                $(this).children("img").animate({opacity:1});
+            });
+        $("img").hover(function(){
+            $(this).animate({ textIndent: 0}, {step: function(now,fx) {
+                $(this).css('-webkit-transform','rotate('+now+'deg)');},duration:'slow'},'linear');
+            },function(){$(this).animate({ textIndent: 360});
+        });
+    });
+</script>
 </body>
 </html>
