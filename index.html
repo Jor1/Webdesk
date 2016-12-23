@@ -36,186 +36,78 @@
     </div>
     <div id="desk">
         <ul>
-            <li title="听音乐"  shortcut="0" class="window-type" id="music">
+            <li title="听音乐" shortcut="0" class="window-type" id="music" link_to="music.html">
                 <img src="img/qqmusic.png">
                 <span>听音乐</span>
                 <em></em>
             </li>
-            <div style="height: 100%;display: none" class="window" title="网页版QQ">
-                <div style="opacity: 0.9" class="title-frame">
-                    <h3>听音乐</h3>
-                    <a class="close-window" id="music-close">关闭</a>
-                    <a class="max-big">最大化</a>
-                    <a class="max-small">还原</a>
-                    <a class="reload" name="sxMusic" onclick="window.open(document.all.music.src,'music','')">刷新</a>
-                </div>
-                <div class="window-frame">
-                    <iframe name="music" id="frame-music" frameborder="0" src=""></iframe>
-                </div>
-            </div>
-            <li class="qq" title="聊天" shortcut="1" class="window-type" id="qq">
+            <li class="qq" title="聊天" shortcut="1" class="window-type" id="qq" link_to="qq.html">
                 <img src="img/QQtalk.jpg">
                 <span>聊天</span>
                 <em></em>
             </li>
-            <div style="height: 100%;display: none" class="window" title="网页版QQ">
-                <div class="title-frame">
-                    <h3>网页版QQ</h3>
-                    <a class="close-window" id="close-qq">关闭</a>
-                    <a class="max-big">最大化</a>
-                    <a class="max-small">还原</a>
-                    <a class="reload" name="sxqq" onclick="window.open(document.all.aqq.src,'aqq','')">刷新</a>
-                </div>
-                <div class="window-frame">
-                    <iframe name="aqq" id="frame-qq" frameborder="0" src=""></iframe>
-                </div>
-            </div>
-            <li title="我的相册" shortcut="2" class="window-type" id="my-pt">
+            <li title="我的相册" shortcut="2" class="window-type" id="my-pt" link_to="photograph.html">
                 <img src="img/photo.png">
                 <span>我的相册</span>
                 <em></em>
             </li>
-            <div class="window">
-                <div class="title-frame">
-                    <h3>我的相册</h3>
-                    <a class="close-window"id="close-photo">关闭</a>
-                    <a class="max-big">最大化</a>
-                    <a class="max-small">还原</a>
-                    <a class="reload" name="pt" onclick="window.open(document.all.photo.src,'photo','')">刷新</a>
-                </div>
-                <div class="window-frame">
-                    <iframe name="photo" id="frame-pt" frameborder="0" src=""></iframe>
-                </div>
-            </div>
-            <li title="百度一下，你就知道" shortcut="3" class="window-type" id="baidu">
+            <li title="百度一下，你就知道" shortcut="3" class="window-type" id="baidu" link_to="http://www.baidu.com">
                 <img src="img/baidui.jpg">
                 <span>百度</span>
                 <em></em>
             </li>
-            <div style="height: 100%;display: none" class="window"title="百度一下，你就知道">
-                <div class="title-frame">
-                    <h3>百度一下，你就知道</h3>
-                    <a class="close-window" id="close-baidu">关闭</a>
-                    <a class="max-big">最大化</a>
-                    <a class="max-small">还原</a>
-                    <a class="reload" name="sxb" onclick="window.open(document.all.ab.src,'ab','')">刷新</a>
-                </div>
-                <div class="window-frame">
-                    <iframe name="ab" id="frame-baidu" frameborder="0" src=""></iframe>
-                </div>
-            </div>
-            <li title="nba" shortcut="5" class="window-type" id="nba">
+            <li title="nba" shortcut="5" class="window-type" id="nba" link_to="nba.html">
                 <img src="img/nba.png">
                 <span>NBA季后赛</span>
                 <em></em>
             </li>
-            <div class="window">
-                <div class="title-frame">
-                    <h3>NBA 季后赛</h3>
-                    <a class="close-window"id="close-nba">关闭</a>
-                    <a class="max-big">最大化</a>
-                    <a class="max-small">还原</a>
-                    <a class="reload" name="sx" onclick="window.open(document.all.nba.src,'nba','')">刷新</a>
-                </div>
-                <div class="window-frame">
-                    <iframe name="nba" id="frame-nba" frameborder="0" src=""></iframe>
-                </div>
-            </div>
-            <li title="看直播" shortcut="6" class="window-type" id="douyu">
+            <li title="看直播" shortcut="6" class="window-type" id="douyu" link_to="douyu.html">
                 <img src="img/douyu.jpg">
                 <span>看直播</span>
                 <em></em>
             </li>
-            <div class="window">
-                <div class="title-frame">
-                    <h3>斗鱼TV直播间</h3>
-                    <a class="close-window"id="close-dy">关闭</a>
-                    <a class="max-big">最大化</a>
-                    <a class="max-small">还原</a>
-                    <a class="reload" name="dy" onclick="window.open(document.all.douyu.src,'douyu','')">刷新</a>
-                </div>
-                <div class="window-frame">
-                    <iframe name="douyu" id="frame-dy" frameborder="0" src=""></iframe>
-                </div>
-            </div>
-            <li title="LOL skin" shortcut="7" class="window-type" id="lol-skin">
+            <li title="LOL skin" shortcut="7" class="window-type" id="lol-skin" link_to="ahri.html">
                 <img src="champions/Ahri_Square_0.png">
                 <span>LOL skin</span>
                 <em></em>
             </li>
-            <div class="window">
-                <div class="title-frame">
-                    <h3>LOL skin</h3>
-                    <a class="close-window" id="close-skin">关闭</a>
-                    <a class="max-big">最大化</a>
-                    <a class="max-small">还原</a>
-                    <a class="reload" name="pf" onclick="window.open(document.all.ah.src,'ah','')">刷新</a>
-                </div>
-                <div class="window-frame">
-                    <iframe name="ah" id="frame-skin" frameborder="0" src=""></iframe>
-                </div>
-            </div>
-            <li title="常用网站" shortcut="8" class="window-type" id="fw">
+            <li title="常用网站" shortcut="8" class="window-type" id="fw" link_to="favorite-web.html">
                 <img src="img/fav.png">
                 <span>常用网站</span>
                 <em></em>
             </li>
-            <div class="window">
-                <div class="title-frame">
-                    <h3>常用网站</h3>
-                    <a class="close-window" id="close-fw">关闭</a>
-                    <a class="max-big">最大化</a>
-                    <a class="max-small">还原</a>
-                    <a class="reload" name="wb" onclick="window.open(document.all.wbb.src,'wbb','')">刷新</a>
-                </div>
-                <div class="window-frame">
-                    <iframe name="wbb" id="frame-fw" frameborder="0" src=""></iframe>
-                </div>
-            </div>
-            <li  title="卸怒游戏：压扁小鸟" shortcut="9" class="window-type" id="bird">
+            <li  title="卸怒游戏：压扁小鸟" shortcut="9" class="window-type" id="bird" link_to="http://play.h5.gamedog.cn/ybxn/">
                 <img src="img/bird.jpg">
                 <span>压扁小鸟</span>
                 <em></em>
             </li>
-            <div class="window">
-                <div class="title-frame">
-                    <h3>卸怒游戏：压扁小鸟</h3>
-                    <a class="close-window" id="close-bird">关闭</a>
-                    <a class="max-big">最大化</a>
-                    <a class="max-small">还原</a>
-                    <a class="reload" name="gm" onclick="window.open(document.all.game.src,'game','')">刷新</a>
-                </div>
-                <div class="window-frame">
-                    <iframe name="game" id="frame-bird" frameborder="0" src=""></iframe>
-                </div>
-            </div>
-            <li  title="WebMV－Love me like you do" shortcut="10" class="window-type" id="web_mv">
+            <li  title="WebMV－Love me like you do" shortcut="10" class="window-type" id="web_mv" link_to="webmv/music.html">
                 <img src="img/qqmusic.png">
                 <span>WebMV－Love me like you do</span>
                 <em></em>
             </li>
-            <div class="window">
-                <div class="title-frame">
-                    <h3>WebMV－Love me like you do</h3>
-                    <a class="close-window" id="close-mv">关闭</a>
-                    <a class="max-big">最大化</a>
-                    <a class="max-small">还原</a>
-                    <a class="reload" name="gm" onclick="window.open(document.all.webmv.src,'webmv','')">刷新</a>
-                </div>
-                <div class="window-frame">
-                    <iframe name="webmv" id="frame-mv" frameborder="0" src=""></iframe>
-                </div>
-            </div>
-            <li title="离开" class="leave" shortcut="12">
+            <li title="离开" class="no-window leave" shortcut="12">
                 <img src="img/file.png">
                 <span>离开</span>
                 <em></em>
             </li>
-            <li title="网易云音乐" class="wy-music" shortcut="13">
+            <li title="网易云音乐" class="no-window wy-music" shortcut="13">
                 <img src="img/wyyyy-icon.jpg">
                 <span>我的音乐</span>
                 <em></em>
             </li>
+            <div class="window">
+                <div class="title-frame">
+                    <h3></h3>
+                    <a class="close-window" id="close-mv">关闭</a>
+                    <a class="max-big">最大化</a>
+                    <a class="max-small">还原</a>
+                    <a class="reload" onclick="window.open(document.all.wf.src,'wf','')">刷新</a>
+                </div>
+                <div class="window-frame">
+                    <iframe name="wf" frameborder="0" src=""></iframe>
+                </div>
+            </div>
         </ul>
 	</div>
     <div id="bottom-set" style="z-index:2000;position:absolute;">
@@ -246,14 +138,7 @@
         <img src="img/53f1549459ccb4cea81cf919e89e3cdb.jpg"width="97px"height="97px">
         </div>
     </div>
-    <!--<div class="window-load "id="loading">
-        <h1>WebDesk 2016</h1>
-        <h2>—— Desktop on WEB ——<br>Developed By ZhaoRui E-mail:97646476@qq.com</h2>
-        <h1 class="loading">Loading . . .</h1>
-        <div class="gif"><img src="img/load.gif"></div>
-        <h3>赵瑞制作</h3>
-    </div>-->
-    <div class="window-load" id="window-safe"style="display: none">
+    <div class="window-load" id="window-safe" style="display: none">
         <h1>WebDesk 2016</h1>
         <h2>—— Desktop on WEB ——<br>Developed By ZhaoRui E-mail:97646476@qq.com</h2>
         <h1 class="loading">用户离开中 . . .</h1>

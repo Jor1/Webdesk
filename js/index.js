@@ -76,83 +76,21 @@ $(function(){
     },function(){
         $(this).find("em").hide()
     });
-    $("#desk ul li:not(.wy-music)").click(function(){
+    $("#desk ul li:not(.no-window)").click(function(){
         var n=$(this).attr("title");
-//                alert(n);
-//                var c=$(this).attr("class");
-//                alert(c)
         var p=$(this).find("img").attr("src");
-//                alert(p)
+        var l=$(this).attr("link_to");
         $(".bottom-ul h2").text(n);
-        $(".bottom-ul li img").attr("src",p)
+        $(".title-frame h3").text(n);
+        $(".bottom-ul li img").attr("src",p);
         $(".bottom-ul").show();
-        $(this).next("div").show().children("div").show().width("0px");
+        $(".window").show().children("div").show().width("0px");
         $(".title-frame").animate({width:"1158px"},300); $(".window-frame").animate({width:"1200px"},300);
-
-    });
-    $("#music").click(function(){
-        $(this).next("div").find("iframe").attr("src","music.html");
-    });
-    $("#qq").click(function(){
-        $(this).next("div").find("iframe").attr("src","qq.html");
-    });
-    $("#my-pt").click(function(){
-        $(this).next("div").find("iframe").attr("src","photograph.html");
-    });
-    $("#baidu").click(function(){
-        $(this).next("div").find("iframe").attr("src","http://www.baidu.com");
-    });
-    $("#nba").click(function(){
-        $(this).next("div").find("iframe").attr("src","nba.html");
-    });
-    $("#douyu").click(function(){
-        $(this).next("div").find("iframe").attr("src","douyu.html");
-    });
-    $("#web_mv").click(function(){
-        $(this).next("div").find("iframe").attr("src","webmv/music.html");
-    });
-    $("#lol-skin").click(function(){
-        $(this).next("div").find("iframe").attr("src","ahri.html");
-    });
-    $("#fw").click(function(){
-        $(this).next("div").find("iframe").attr("src","favorite-web.html");
-    });
-    $("#bird").click(function(){
-        $(this).next("div").find("iframe").attr("src","http://play.h5.gamedog.cn/ybxn/");
-    });
-
-    $("#close-music").click(function(){
-        $("#frame-music").attr("src","")
-    });
-    $("#close-qq").click(function(){
-        $("#frame-qq").attr("src","")
-    });
-    $("#close-photo").click(function(){
-        $("#frame-pt").attr("src","")
-    });
-    $("#close-baidu").click(function(){
-        $("#frame-baidu").attr("src","")
-    });
-    $("#close-nba").click(function(){
-        $("#frame-nba").attr("src","")
-    })
-    $("#close-dy").click(function(){
-        $("#frame-dy").attr("src","")
-    });
-    $("#close-mv").click(function(){
-        $("#frame-mv").attr("src","")
-    });
-    $("#close-skin").click(function(){
-        $("#frame-skin").attr("src","")
-    });
-    $("#close-fw").click(function(){
-        $("#frame-fw").attr("src","")
-    });
-    $("#close-bird").click(function(){
-        $("#frame-bird").attr("src","")
+        $(".window").find("iframe").attr("src",l);
     });
 
     $(".close-window").click(function(){
+        $(".window").find("iframe").attr("src","");
         $(".window").hide();
         $(".bottom-ul").hide();
         $(".window").find(".window-frame").css({width:"1200px"});
@@ -166,24 +104,7 @@ $(function(){
         $(".window").find(".window-frame").css({width:"100%"});
         $(".window").find(".title-frame").css({width:"98%"})
     });
-    $(".reload").click(function(){
-//                $("iframe").frame.reload()
-    });
-//            var timeout = '';
-//            $('body').mouseover(function(){
-//                timeout = setTimeout(function(){
-////                    alert('2秒');
-//                    var node=$(".window");
-//
-//                    $("#window-safe").show()
-//                },3000);
-//            })
-//
-//            $('body').mouseout(function(){
-//                clearTimeout(timeout);
-//                $("#window-safe").hide()
-//
-//            })
+
     $(".leave").click(function(){
         $("#window-safe").show()
     });
