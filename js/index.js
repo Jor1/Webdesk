@@ -63,12 +63,10 @@ $(function(){
     });
     $("#bottom-set li").click(function(){
         var bbg=$(this).attr("style");
-//                alert(bbg);
         $(".bottom").attr("style",bbg)
     });
     $("#bg-set img").click(function(){
         var dbg=$(this).attr("src");
-//                alert(dbg)
         $("body").attr("style","background:url("+dbg+")no-repeat scroll center top transparent;");
     });
     $("#desk ul li").hover(function(){
